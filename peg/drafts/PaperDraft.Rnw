@@ -1,0 +1,77 @@
+\documentclass{article}
+
+% Language and font encodings
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+
+%% Sets page size and margins
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{tikz}
+\usepackage{asymptote}
+%\usepackage{achicago}
+\usepackage{setspace}
+\onehalfspacing
+
+
+%% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref} 
+\usepackage{caption} % Package for captions
+\usepackage{soul} % to wrap underlined sentences
+\usepackage{float} %package for floats
+
+%% Title and Author
+\title{PaperDraft}
+\author{David Simpson}
+
+
+
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+\maketitle
+\begin{abstract}
+This is a colleciton of my work to this point
+\end{abstract}
+
+%%%%%%%%%%%%%%%%%%%%%
+%\begin{} Previous Literature
+%%%%%%%%%%%%%%%%%%%%%
+\section{Previous Literature}
+
+\subsection{Chris Berry: Piling On} 
+
+
+
+%%%%%%%%%%%%%%%%%%%%%
+%\end{} Previous Literature
+%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%
+%\begin{} Data Description
+%%%%%%%%%%%%%%%%%%%%%
+\section{Data Description}
+
+\subsection{Population Data}
+The first data set that I imported was the County Population Data from <insert the web link>. I saved this data as the filed pop92.csv. There are observations for each county in each 
+
+%%%%%%%%%%%%%%%%%%%%%
+%\end{} Data Description
+%%%%%%%%%%%%%%%%%%%%%
+
+
+<<echo = FALSE>>=
+x=3
+3**2
+print(7)
+@
+
+x = 3 
+
+\end{document}

@@ -1,0 +1,23 @@
+Bibliography
+Census of Governments Series
+
+This bibliography includes published and unpublished works that are
+related to ICPSR series 12. It includes works that are based on
+primary or secondary analysis of the data, or which describe or critique
+those data or the collection methodology. This list represents all items
+known to ICPSR as of 2017-08-09.
+
+If you publish a work or know of other works that are based on these data,
+please send the complete citation and name of the ICPSR series used to:
+icpsr-biblio-notify@umich.edu 
+
+
+1. De la Roca, Jorge; Ellen, Ingrid Gould; O'Regan, Katherine M., "Race and
+neighborhoods in the 21st Century: What does segregation mean today?."
+Regional Science and Urban Economics. Jul 2014, 47, 138 - 151. DOI:
+10.1016/j.regsciurbeco.2013.09.006
+
+2. Stein, Robert M., "The allocation of federal aid monies: The synthesis
+of demand-side and supply-side explanations." American Political Science
+Review. Jun 1981, 75, (2), 334 - 343.
+Full text: http://www.jstor.org/stable/1961368

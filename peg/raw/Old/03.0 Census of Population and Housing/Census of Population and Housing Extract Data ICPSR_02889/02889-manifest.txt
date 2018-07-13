@@ -1,0 +1,84 @@
+File Manifest for ICPSR 2889
+
+Adams, Terry K. Census of Population and Housing, 1990  [United States]:
+Extract Data. ICPSR02889-v1. Ann Arbor, MI: Inter-university Consortium for
+Political and Social Research [distributor], 2000.
+http://doi.org/10.3886/ICPSR02889.v1
+
+Details on the version history can be found below the file listings.
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    02889-descriptioncitation.pdf       -       -         -       2014-07-03  -
+
+    02889-related_literature.txt        -       -         -       daily       -
+
+    02889-manifest.txt                  -       -         -       daily       -
+
+    02889-Codebook.pdf                  -       -         -       2000-09-15  c76003e7e42e8fe278a92c5e24b2b759
+
+    02889-Setup.sas                     -       -         -       2000-09-15  493cdb1a149eb8ef1540c769cef9dbd9
+
+    02889-Setup.sps                     -       -         -       2000-09-15  0d0ae516bacbfe73fbdb4ed4adf388c8
+
+
+DS0001 Tract/BNA Level, Count 3A Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    02889-0001-Data.txt                 1670    59,890    262     2001-03-09  96fd334996e72c8fb2694dd404a1a1aa
+
+
+DS0002 Minor Civil Divisions, Count 3A Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    02889-0002-Data.txt                 1670    35,136    262     2000-09-15  376d005c916e844bb411555dd2f17ced
+
+
+DS0003 Five-Digit ZIP Codes, Count 3B Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    02889-0003-Data.txt                 1670    29,335    262     2000-09-15  58e3785c1ac8a53b796413bd870c2c97
+
+
+DS0004 Places, Count 3A Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    02889-0004-Data.txt                 1670    23,417    262     2000-09-15  a8c79b0166a3a38c9012663491b883bf
+
+
+DS0005 Counties, Count 3A Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    02889-0005-Data.txt                 1670    3,141     262     2000-09-15  9c6ef110fd2edc741009e1658f49ab69
+
+
+DS0006 States, Count 3A Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    02889-0006-Data.txt                 1670    51        262     2000-09-15  4fba3b99fd69ae1b6d5ba26648f33fdb
+
+
+Version History
+
+2006-01-18 File SP2889.ALL was removed from any previous datasets and
+flagged as a study-level file, so that it will accompany all downloads.
+2006-01-18 File SA2889.ALL was removed from any previous datasets and
+flagged as a study-level file, so that it will accompany all downloads.
+2006-01-18 File CB2889.ALL.PDF was removed from any previous datasets and
+flagged as a study-level file, so that it will accompany all downloads.

@@ -1,0 +1,32 @@
+File Manifest for ICPSR 9878
+
+U.S. Dept. of Commerce, Bureau of the Census. CENSUS OF POPULATION AND
+HOUSING, 1990 [UNITED STATES]: MODIFIED AGE/RACE, SEX, AND HISPANIC ORIGIN
+(MARS) STATE AND COUNTY FILE. Washington, DC: U.S. Dept. of Commerce,
+Bureau of the Census [producer], 1992. Ann Arbor, MI: Inter-university
+Consortium for Political and Social Research [distributor], 1992.
+http://doi.org/10.3886/ICPSR09878.v1
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    09878-descriptioncitation.pdf       -       -         -       2014-07-03  -
+
+    09878-related_literature.txt        -       -         -       daily       -
+
+    09878-manifest.txt                  -       -         -       daily       -
+
+
+DS0001 Census of Population and Housing, 1990 [United States]: Modified
+Age/Race, Sex, and Hispanic Origin (MARS) State and County File
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    09878-0001-Codebook.txt             -       -         -       1994-06-08  260f50544191e9cb553c9da81fc2979a
+
+    09878-0001-Data.txt                 14694   3,192     unknown 1994-06-08  441350ed57dba8235372d20c56dd125d
+

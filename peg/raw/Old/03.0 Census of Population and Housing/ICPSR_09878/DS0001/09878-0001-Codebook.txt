@@ -1,0 +1,641 @@
+1                                                                                                                                   
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+            CENSUS OF POPULATION AND HOUSING, 1990 [UNITED STATES]:                                                                 
+               MODIFIED AGE/RACE, SEX, AND HISPANIC ORIGIN (MARS)                                                                   
+                              STATE AND COUNTY FILE                                                                                 
+                                                                                                                                    
+                                  (ICPSR 9878)                                                                                      
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                             Principal Investigator                                                                                 
+                                                                                                                                    
+                      United States Department of Commerce                                                                          
+                              Bureau of the Census                                                                                  
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                               First ICPSR Release                                                                                  
+                                  October 1992                                                                                      
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                         Inter-university Consortium for                                                                            
+                          Political and Social Research                                                                             
+                                  P.O. Box 1248                                                                                     
+                            Ann Arbor, Michigan 48106                                                                               
+                                                                                                                                    
+                                                                                                                                    
+1                                                                                                                                   
+                                                                                                                                    
+1                                                                                                                                   
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                             BIBLIOGRAPHIC CITATION                                                                                 
+                                                                                                                                    
+                                                                                                                                    
+            Publications  based  on  ICPSR  data  collections  should                                                               
+            acknowledge  those  sources  by  means  of  bibliographic                                                               
+            citations.  To ensure that such source  attributions  are                                                               
+            captured  for  social  science  bibliographic  utilities,                                                               
+            citations must appear in footnotes or  in  the  reference                                                               
+            section  of publications.  The bibliographic citation for                                                               
+            this data collection is:                                                                                                
+                                                                                                                                    
+                                                                                                                                    
+                 U.S. Dept. of Commerce, Bureau of  the  Census.                                                                    
+                 CENSUS  OF POPULATION AND HOUSING, 1990 [UNITED                                                                    
+                 STATES]: MODIFIED AGE/RACE, SEX,  AND  HISPANIC                                                                    
+                 ORIGIN  (MARS)  STATE AND COUNTY FILE [Computer                                                                    
+                 file].  Washington, DC: U.S. Dept. of Commerce,                                                                    
+                 Bureau  of  the  Census  [producer],  1992. Ann                                                                    
+                 Arbor,  MI:  Inter-university  Consortium   for                                                                    
+                 Political  and  Social  Research [distributor],                                                                    
+                 1992.                                                                                                              
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                REQUEST FOR INFORMATION ON USE OF ICPSR RESOURCES                                                                   
+                                                                                                                                    
+            To provide funding agencies  with  essential  information                                                               
+            about  use  of  archival  resources and to facilitate the                                                               
+            exchange  of  information   about   ICPSR   participants'                                                               
+            research activities, users of ICPSR data are requested to                                                               
+            send to ICPSR bibliographic citations for each  completed                                                               
+            manuscript or thesis abstract. Please indicate in a cover                                                               
+            letter which data were used.                                                                                            
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                 DATA DISCLAIMER                                                                                    
+                                                                                                                                    
+            The original  collector  of  the  data,  ICPSR,  and  the                                                               
+            relevant  funding  agency bear no responsibility for uses                                                               
+            of this collection or for interpretations  or  inferences                                                               
+            based upon such uses.                                                                                                   
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+1                                                                                                                                   
+                                                                                                                                    
+1                                                                                                                                   
+                          DATA COLLECTION DESCRIPTION                                                                               
+                                                                                                                                    
+                                                                                                                                    
+       United States Department of Commerce. Bureau of the Census                                                                   
+            CENSUS OF POPULATION  AND  HOUSING,  1990  [UNITED  STATES]:                                                            
+       MODIFIED  AGE/RACE,  SEX,  AND  HISPANIC  ORIGIN (MARS) STATE AND                                                            
+       COUNTY FILE (ICPSR 9878)                                                                                                     
+                                                                                                                                    
+       SUMMARY: The MARS file contains modified race and age data  based                                                            
+       on  the  1990  Census. Both race and age are tabulated by sex and                                                            
+       Hispanic origin for several layers of geography.  The  race  data                                                            
+       were  modified  to  make reporting categories comparable to those                                                            
+       used by state  and  local  agencies.  The  1990  Census  included                                                            
+       9,804,847  persons who checked the "other race" category and were                                                            
+       therefore not included in one of the 15 racial categories  listed                                                            
+       on  the  Census  form.  "Other race" is usually not an acceptable                                                            
+       reporting category for state and local agencies.  Therefore,  the                                                            
+       Census  Bureau assigned each "other race" person to the specified                                                            
+       race reported by another person who was geographically close  and                                                            
+       had  an  identical  response  to  the  Hispanic-origin  question.                                                            
+       Hispanic origin was taken into account because over 95 percent of                                                            
+       the "other race" persons were of Hispanic origin. Hispanic-origin                                                            
+       persons may be of any race. The assignment of race  to  Hispanic-                                                            
+       origin  persons  did not affect the Hispanic-origin category they                                                            
+       checked (i.e, Mexican, Puerto Rican, Cuban, etc.). Age data  were                                                            
+       modified  because respondents tended to report age as of the date                                                            
+       they completed the 1990 questionnaire, instead of  the  April  1,                                                            
+       1990 Census date. In addition, there may have been a tendency for                                                            
+       respondents to round up their ages if they were close  to  having                                                            
+       birthdays.  Age  data for individuals in households were modified                                                            
+       by adjusting the reported birth-year data by  race  and  sex  for                                                            
+       each of the 1990 Census's 449 district offices to correspond with                                                            
+       the national level quarterly  distribution  of  births  available                                                            
+       from  the  National  Center  for  Health Statistics. The data for                                                            
+       persons in group quarters were adjusted similarly, but on a state                                                            
+       basis.  The  age  adjustment  affects  approximately  100 million                                                            
+       people. In this file the adjusted age is one year different  from                                                            
+       that reported in the 1990 Census.  CLASS IV                                                                                  
+                                                                                                                                    
+       UNIVERSE: All persons in the United States.                                                                                  
+                                                                                                                                    
+       NOTE: Data are provided for counties  with  state  totals.  State                                                            
+       records can be identified by blanks in the county code field.                                                                
+                                                                                                                                    
+       EXTENT  OF   COLLECTION:   1   data   file   +   machine-readable                                                            
+       documentation (text)                                                                                                         
+                                                                                                                                    
+       DATA FORMAT: Logical Record Length                                                                                           
+                                                                                                                                    
+       File Structure: rectangular                                                                                                  
+       Cases: 3,192                                                                                                                 
+       Variables: 1,635                                                                                                             
+       Record Length: 14,694                                                                                                        
+       Records Per Case: 1                                                                                                          
+                                                                                                                                    
+                                                                                                                                    
+1                                                                                                                                   
+                                                                                                                                    
+1                                                                                                                                   
+                1990 CENSUS OF POPULATION AND HOUSING                                                                               
+                                                                                                                                    
+          Modified Age/Race, Sex and Hispanic Origin (MARS)                                                                         
+                        State and County File                                                                                       
+                              (STF-S-3)                                                                                             
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+This file documentation consists of the following materials:                                                                        
+                                                                                                                                    
+        Attachment 1            Abstract                                                                                            
+                                                                                                                                    
+        Attachment 2            Race and Age Modification                                                                           
+                                                                                                                                    
+        Attachment 3            Record Layout                                                                                       
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                 NOTE                                                                                               
+                                                                                                                                    
+                                                                                                                                    
+Questions about the subject matter should be directed to Population Division,                                                       
+Bureau of the Census, Washington, DC 20233. Phone: (301) 763-5002.                                                                  
+                                                                                                                                    
+Questions about the tape should be directed to Data User Services Division,                                                         
+Customer Services (Tapes), Bureau of the Census, Washington, DC 20233. Phone:                                                       
+(301) 763-4100.                                                                                                                     
+                                                                                                                                    
+Questions about the accompanying documentation should be directed to Data User                                                      
+Services Division, Data Access and Use Staff, Bureau of the Census, Washington,                                                     
+DC 20233. Phone: (301) 763-2074.                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                           Revised June 1992                                                        
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+1                                                                                                                                   
+ Page 2                                            ICPSR 9878                                                                       
+                                                                                                                                    
+                                                                                                                                    
+                             ATTACHMENT 1                                                                                           
+                                                                                                                                    
+                               ABSTRACT                                                                                             
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+ 1990 Census of Population and Housing. Modified Age/Race, Sex and Hispanic                                                         
+Origin (MARS) State and County File (STF-S-3) (machine-readable data file) /                                                        
+conducted by the Bureau of the Census. -Washington: The Bureau (producer and                                                        
+distributor), 1992                                                                                                                  
+                                                                                                                                    
+                                                                                                                                    
+Type of File                                                                                                                        
+                                                                                                                                    
+    Summary statistics.                                                                                                             
+                                                                                                                                    
+                                                                                                                                    
+Universe Description                                                                                                                
+                                                                                                                                    
+    All persons in the United States.                                                                                               
+                                                                                                                                    
+                                                                                                                                    
+Subject Matter Description                                                                                                          
+                                                                                                                                    
+    The MARS file provides data from the 1990 census as well as similar                                                             
+    information from a special census file where the age and race data have                                                         
+    been "modified" to meet the needs of many users of census data. The race                                                        
+    statistics were modified to be consistent with the classification used in                                                       
+    data sets other than the census, while the age data were adjusted to                                                            
+    correspond with the April 1, 1990 census date. These "modified" data are                                                        
+    consistent with the counts of the 1990 census as enumerated.                                                                    
+                                                                                                                                    
+                                                                                                                                    
+Geographic Coverage                                                                                                                 
+                                                                                                                                    
+    Data are provided for counties with State totals. State records can be                                                          
+    identified by blanks in the county code field.                                                                                  
+                                                                                                                                    
+                                                                                                                                    
+Technical Description                                                                                                               
+                                                                                                                                    
+        Record length:                 14,694 characters                                                                            
+        Block length:                  29,388 characters                                                                            
+        Data Set Name (DSN):           STFS3XUS.FO1xxxxx                                                                            
+        Record count:                  3,192                                                                                        
+        Block count:                   1,596                                                                                        
+                                                                                                                                    
+                                                                                                                                    
+File Availability                                                                                                                   
+                                                                                                                                    
+    The file is available on 9 track tape or tape cartridge (LBM 3480                                                               
+                                                                                                                                    
+                                                                                                                                    
+1                                                                                                                                   
+ ICPSR 9878                                            Page 3                                                                       
+                                                                                                                                    
+                                                                                                                                    
+    compatible) at 6250 bpi in ASCII format. The minimum price is $175 which                                                        
+    includes the tape and a copy of this documentation. The documentation                                                           
+    ordered separately is $10. When ordering, please use the order form at                                                          
+    the end of this chapter. For more information contact Customer Services,                                                        
+    Data User Services Division, Bureau of the Census, Washington, DC 20233.                                                        
+    Phone: 301-763-4100.                                                                                                            
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                           Revised June 1992                                                        
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+1                                                                                                                                   
+ Page 4                                            ICPSR 9878                                                                       
+                                                                                                                                    
+                                                                                                                                    
+                             ATTACHMENT 2                                                                                           
+                                                                                                                                    
+                      Race and Age Modification                                                                                     
+                                                                                                                                    
+                                                                                                                                    
+RACE MODIFICATION                                                                                                                   
+                                                                                                                                    
+There were 9,804,847 "Other race" persons included in the 1990 census. These                                                        
+people were not included in one of the 15 racial categories listed on the                                                           
+census form. The existence of this group is inconsistent with the race                                                              
+categories defined by the Office of Management and Budget in OMB Directive 15.                                                      
+Such "non-specified" race persons also are not found in data sources other                                                          
+than the census. In order to serve the needs of some portions of the user                                                           
+community it is necessary to assign each of these persons to a specified race.                                                      
+                                                                                                                                    
+After evaluating many alternatives, the following race assignment rule was                                                          
+used: Assign each "Other race" person to the specified race reported by a                                                           
+nearby person with an identical response to the Hispanic origin question. The                                                       
+only alternative specifications which yielded significantly different National                                                      
+results were those where responses to the Hispanic origin question were ignored                                                     
+during the assignment of race. This work was done separately for each of the                                                        
+ 449 district offices.                                                                                                              
+                                                                                                                                    
+Background Information on the Race Assignment Rule                                                                                  
+                                                                                                                                    
+  1. The specific Hispanic origin of each "Other race" person in the 1990                                                           
+     census was taken into account when assigning them to a specified race.                                                         
+     This was considered appropriate because over 95 percent of the "Other                                                          
+     race" persons were of Hispanic origin. Their origin response was used,                                                         
+     whether or not it had been allocated, in order to preserve the race                                                            
+     distribution within each type of origin. The specific Hispanic origin                                                          
+     responses were "not Spanish/Hispanic, Mexican Puerto Rican Cuban, and                                                          
+     other Spanish/Hispanic."                                                                                                       
+                                                                                                                                    
+  2. Virtually every person who reported both a specified race and an origin                                                        
+     was included in the "donor pool" of eligible persons. The sole exception                                                       
+     was the exclusion of several non-specific American Indian codes from the                                                       
+     donor pool since: 1) prelimiary 1990 research suggested questionable                                                           
+     reporting in the American Indian category and; 2) previous research                                                            
+     showed that a high proportion of such persons were much less likely to be                                                      
+     American Indians than those who actually provided a specific tribe                                                             
+     response as instructed on the census form. These codes were: 548-Amerind                                                       
+     White, 549-Amerind Black, 597-American Indian (no tribe reported), 598-                                                        
+     American Indian (tribal responses not elsewhere classified), and 973-                                                          
+     FOSDIC circle with no write-in response. These were excluded because                                                           
+     of evidence from the 1980 census that misreporting of race was much                                                            
+     higher in these codes than it was in codes representing specific American                                                      
+     Indian tribes. Consistent with advisory committee recommendations, any                                                         
+     person assigned to the American Indian race through allocation was given                                                       
+     code 973 rather than a specfic tribal code.                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+1                                                                                                                                   
+ ICPSR 9878                                            Page 5                                                                       
+                                                                                                                                    
+                                                                                                                                    
+  3. The assignment of a specified race was made on an individual basis. That                                                       
+     is, no effort was made to minimize racial heterogeneity within house-                                                          
+     holds. Any such attempt would have made it difficult to assign race in a                                                       
+     manner which approximated the specified-race distribution reported by                                                          
+     persons with the same Hispanic origin response.                                                                                
+                                                                                                                                    
+  4. The race, origin, or sex of some persons also changed as a result of the                                                       
+     assignment of a different age to them during the application of the age                                                        
+     modification procedures. Their changed age sometimes caused the person                                                         
+     to be allocated a different relationship and/or sex which resulted in                                                          
+     the person receiving their race or origin from a different person in the                                                       
+     household (Since those items were allocated according to a hierarchy of                                                        
+     relationships).                                                                                                                
+                                                                                                                                    
+  5. The results of the race modification procedures were overridden in four                                                        
+     counties where the American Indian population grew by more than 100                                                            
+     percent and also became at least one percentage point more of the                                                              
+     county's population: Adams County, Washington; Harmon County, Oklahoma;                                                        
+     Clark County, Idaho; and Washington County, Idaho. In each case the                                                            
+     persons were made White.                                                                                                       
+                                                                                                                                    
+  6. In most census allocation procedures, acceptable data from eligible                                                            
+     persons (donors) are far more common than are the cases where the value                                                        
+     is assigned to persons without the characteristic (the donees). This                                                           
+     means information from any given donor is rarely used more than once.                                                          
+     However, such large donor-to-donee ratios were not usual here. There                                                           
+     were a number of occasions where those needing a specified race out-                                                           
+     numbered those who reported the same origin as well as a specified race.                                                       
+                                                                                                                                    
+Special procedures were adopted to minimize the distortions produced by such                                                        
+low ratios of donors to donees in some cells of these matrices. The most                                                            
+important change was to expand each cell of every allocation matri to hold                                                          
+ 64 values, rather than the 8 stored in most 1990 census matrices. For each                                                         
+district office, the initial race data were then obtained by running the actual                                                     
+census file and storing up to the first 64 acceptable cases in each data                                                            
+cell. If the district office did not have 64 cases the remaining values were                                                        
+assumed to be White. After the matrices were so "warmed", the program went                                                          
+back to the beginning of the data and began the race assignments. The actual                                                        
+race assignment was a random selection from the unused values within each cell                                                      
+If all 64 values had been used, then assignment was random from among all 64                                                        
+until new acceptable cases were available. Used values in a cell were replaced                                                      
+with acceptable data in reverse of the order of use.                                                                                
+                                                                                                                                    
+                                                                                                                                    
+AGE MODIFICATION                                                                                                                    
+                                                                                                                                    
+The following is a portion of the text of a user note which is incorporated in                                                      
+ 1990 census products. It explains why the data were modified.                                                                      
+                                                                                                                                    
+"Age Reporting-Review of detailed 1990 information indicated that respondents                                                       
+tended to provide their age as of the date of completion of the questionnaire,                                                      
+                                                                                                                                    
+                                                                                                                                    
+1                                                                                                                                   
+ Page 6                                            ICPSR 9878                                                                       
+                                                                                                                                    
+                                                                                                                                    
+not their age as of April 1, 1990. In addition, there may have been a tendency                                                      
+for respondents to round up their age if they were close to having a birthday.                                                      
+It is likely that approximately 10 percent of persons in most age groups are                                                        
+actually 1 year younger. For most single years of age, the misstatements are                                                        
+largely offsetting. The problem is most pronounced at age 0 because persons                                                         
+lost to age 1 may not have been fully offset by the inclusion of babies born                                                        
+after April 1, 1990 and because there may have been more rounding up to age 1                                                       
+to avoid reporting age as 0 years. (Age in completed months was not collected                                                       
+for infants under age 1.)                                                                                                           
+                                                                                                                                    
+The reporting of age 1 year older than age on April 1, 1990 is likely to have                                                       
+been greater in areas where the census data were collected later in 1990."                                                          
+                                                                                                                                    
+About 95 percent of the population provided acceptable birth year responses                                                         
+which were adjusted with the following procedures. The age data for individuals                                                     
+in households were modified by adjusting the reported birth year data by race                                                       
+and sex for each of the 1990 Census' 449 district offices to correspond with                                                        
+the national level quarterly distribution of births available from the                                                              
+National Center for Health Statistics. The data for persons in group quarters                                                       
+were adjusted on a state basis to minimize the number of matrix cells with very                                                     
+small numbers. The central assumption in this procedure is that there is no                                                         
+reason for the residents of any subnational area to have a different quarter                                                        
+of birth distribution from that found at the national level. It was also                                                            
+assumed that there are no significant birth place-sex-race-origin differences                                                       
+in annual birth distributions by quarter, that all those born before 1920                                                           
+have the same quarter of birth distribution, and that mortality is not                                                              
+selective by quarter of birth. Approximately 100 million persons have an age in                                                     
+this modified file which is one year different from that they had in the 1990                                                       
+census.                                                                                                                             
+                                                                                                                                    
+The modification procedure was done separately for each birth year, by sex, for                                                     
+the White; Black; Asian or Pacific Islander; and American Indian, Eskimo, or                                                        
+Aleut populations. For every birth year the program was provided with the                                                           
+number of cases out of 10,000 where the birth year plus the person's age should                                                     
+equal 1989 (most years that number was close to 7,500). These overall control                                                       
+values were calculated from the available monthly birth statistics for the 1920                                                     
+to 1989 period. Earlier birth years were each assumed to have the same seasonal                                                     
+pattern as was exhibited by the unweighted average of the 1920-24 birth                                                             
+cohorts. Each sex-race-origin cell was next randomly assigned a value of 0,                                                         
+ 0.25, 03, or 0.75. Then, each time that birth year cell was encountered, a                                                         
+test was made to see if that birth year plus the person's age should equal1989                                                      
+or 1990. The choice of an age was dependent on whether its acceptance moved the                                                     
+cell's actual population distribution toward the control value distribution.                                                        
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+1                                                                                                                                   
+ ICPSR 9878                                            Page 7                                                                       
+                                                                                                                                    
+                                                                                                                                    
+                             ATTACHMENT 3                                                                                           
+                                                                                                                                    
+                            Record Layout                                                                                           
+                                                                                                                                    
+                                                                                                                                    
+Character             Item Description                                                                                              
+   1-2                FIPS State Code                                                                                               
+   3-5                FIPS County Code                                                                                              
+   6                  Blank                                                                                                         
+                                                                                                                                    
+       Age =  Under 1 Year:                                                                                                         
+   7-15               Hispanic Male: White                                                                                          
+  16-24               Hispanic Male: Black                                                                                          
+  25-33               Hispanic Male: America Indian, Eskimo, and Aleut                                                              
+  34-42               Hispanic Male: Asian and Pacific Islander                                                                     
+  43-51               Hispanic Female: White                                                                                        
+  52-60               Hispanic Female: Black                                                                                        
+  61-69               Hispanic Female: American Indian, Eskimo, and Aleut                                                           
+  70-78               Hispanic Female: Asian and Pacific Islander                                                                   
+  79-87               Not Hispanic Male: White                                                                                      
+  88-96               Not Hispanic Male: Black                                                                                      
+  97-105              Not Hispanic Male: America Indian, Eskimo, and Aleut                                                          
+ 106-114              Not Hispanic Male: Asian and Pacific Islander                                                                 
+ 115-123              Not Hispanic Female: White                                                                                    
+ 124-132              Not Hispanic Female: Black                                                                                    
+ 133-141              Not Hispanic Female: American Indian, Eskimo, and Aleut                                                       
+ 142-150              Not Hispanic Female: Asian and Pacific Islander                                                               
+                                                                                                                                    
+       Age = 1 Year:                                                                                                                
+ 151-294              Repeat Hispanic origin Sex, Race cells as above                                                               
+                                                                                                                                    
+       Age = 2 Years:                                                                                                               
+ 295-438              Repeat Hispanic origin, Sex, Race cells as above                                                              
+                                                                                                                                    
+       Age = 3 Years:                                                                                                               
+ 439-582              Repeat Hispanic origin, Sex, Race cells as above                                                              
+       .                                                                                                                            
+       .              Repeat single years of age                                                                                    
+       .              (All data cells are 9 characters each)                                                                        
+                                                                                                                                    
+       Age = 98 Years:                                                                                                              
+ 14119-14262           Repeat Hispanic origin, Sex, Race cells as above                                                             
+                                                                                                                                    
+       Age = 99 Years:                                                                                                              
+ 14263-14406           Repeat Hispanic origin, Sex, Race cells as above                                                             
+                                                                                                                                    
+       Age = 100 Years:                                                                                                             
+ 14407-14550           Repeat Hispanic origin, Sex, Race cells as above                                                             
+                                                                                                                                    
+       Age = Total all ages:                                                                                                        
+ 14551-14694           Repeat Hispanic origin, Sex, Race cells as above                                                             
+                                                                                                                                    
+                                                                                                                                    
+1                                                                                                                                   
+ Page 8                                            ICPSR 9878                                                                       
+                                                                                                                                    
+                                                                                                                                    
+                                        UNITED STATES DEPARTMENT OF COMMERCE                                                        
+                                        Bureau of the Census                                                                        
+                                        Washington, DC 20233-0001                                                                   
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                1990 CENSUS OF POPULATION AND HOUSING:                                                                              
+          Modified Age/Race, Sex and Hispanic Origin (MARS)                                                                         
+                        State and County File                                                                                       
+                              (STF-S-3)                                                                                             
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                             USER NOTE 1                                                                                            
+                                                                                                                                    
+                                                                                                                                    
+    The attached pages reflect changes In the MARS (SRF-S-3) technical                                                              
+documentation. Please note that the record length and block length have been                                                        
+changed. After replacing the contents page and abstract, this cover sheet may                                                       
+be filed at the end of the documentation.                                                                                           
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                June 1992                                                           
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+    The above steps have been taken by ICPSR; this is the correct version.                                                          
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                    September 1992                  
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    

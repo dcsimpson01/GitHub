@@ -1,0 +1,22 @@
+Bibliography
+Census of Population and Housing, 1990 [United States]: Modified Age/Race,
+Sex, and Hispanic Origin (MARS) State and County File
+
+This bibliography includes published and unpublished works that are related 
+to ICPSR study 9878. It includes works that are based on primary
+or secondary analysis of the data, or which describe or critique those
+data or the collection methodology. 
+
+If you publish a work or know of other works that are based on these data,
+please send the complete citation and name of the ICPSR study used to:
+icpsr-biblio-notify@umich.edu 
+
+
+1. Hirschman, Charles, "Studying Immigrant Adaptatoin from the 1990
+Population Census:  From Generational Comparisons to the Process of
+'Becoming American'." In Portes, Alejandro, The New Second Generation. 54 -
+81, New York: Russell Sage Foundation,1996.
+
+2. Smith, Stanley K.; Nogle, June M., "An experimental methodology for
+estimating Hispanic residents for states and counties." Journal of Economic
+and Social Measurement. 1997, 23, (4), 263 - 275.

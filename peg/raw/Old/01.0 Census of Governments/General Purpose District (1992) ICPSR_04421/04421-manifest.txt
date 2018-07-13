@@ -1,0 +1,110 @@
+File Manifest for ICPSR 4421
+
+United States Department of Commerce. Bureau of the Census. Census of
+Governments, 1992: Government Organization. ICPSR04421-v2. Ann Arbor, MI:
+Inter-university Consortium for Political and Social Research
+[distributor], 2014-02-11. http://doi.org/10.3886/ICPSR04421.v2
+
+Details on the version history can be found below the file listings.
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04421-descriptioncitation.pdf       -       -         -       2014-07-22  -
+
+    04421-manifest.txt                  -       -         -       daily       -
+
+
+DS0001 General Purpose Governments
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04421-0001-Codebook.pdf             -       -         -       2014-02-11  c7ed1b27929874391a5200ee9219ad6c
+
+    04421-0001-Data.dta                 -       31,555    72      2014-02-11  b91d6bc8ff254703bb2cf0615b640527
+
+    04421-0001-Data.rda                 -       31,555    72      2014-02-11  d0a5fc9195483e35654e7b380672d82e
+
+    04421-0001-Data.sav                 -       31,555    72      2014-02-11  b5e956720d5f417a90278b65adc38a08
+
+    04421-0001-Data.stc                 -       31,555    72      2014-02-11  ff038c503d2c118b50a579b6666d5018
+
+    04421-0001-Data.tsv                 -       31,555    72      2014-02-11  46a376e8d10dc0501fb7e6007e7b4d68
+
+    04421-0001-Data.txt                 424     31,555    72      2014-02-11  eca66551de42aa667ea0edca2f74db45
+
+    04421-0001-Setup.dct                -       -         -       2014-02-11  c8e7f01309bbee87df14fca18f289be8
+
+    04421-0001-Setup.do                 -       -         -       2014-02-11  548c2478a803e665efd0cd11ebd22a00
+
+    04421-0001-Setup.sas                -       -         -       2014-02-11  ea42e8d246cca702fb7d248add12e539
+
+    04421-0001-Setup.sps                -       -         -       2014-02-11  137524a61ca0edc94414b26ce62c7938
+
+
+DS0002 Special District Governments
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04421-0002-Codebook.pdf             -       -         -       2014-02-11  a9a303514ea736b754d96ded9d47c5b1
+
+    04421-0002-Data.dta                 -       38,978    99      2014-02-11  38812666b44c2c8c8ebdf2ec6c71a25e
+
+    04421-0002-Data.rda                 -       38,978    99      2014-02-11  e0f9e1d09cdaec4bf6d2ed6997b891e1
+
+    04421-0002-Data.sav                 -       38,978    99      2014-02-11  7221d4155dc4500bc1ef0192db963c4e
+
+    04421-0002-Data.stc                 -       38,978    99      2014-02-11  ac7e0039821e01830c34ee326b0e3e0a
+
+    04421-0002-Data.tsv                 -       38,978    99      2014-02-11  c1414656fd1a7efe6fb2784d79a533cc
+
+    04421-0002-Data.txt                 527     38,978    99      2014-02-11  e960ca316ca031a1629c35f2941bb4b8
+
+    04421-0002-Setup.dct                -       -         -       2014-02-11  71520bb0558e96624c8bad6a5ca5d6ac
+
+    04421-0002-Setup.do                 -       -         -       2014-02-11  91670c29dfa3346f68b8c320b707c8cd
+
+    04421-0002-Setup.sas                -       -         -       2014-02-11  4bc36749106a1dc9765c9c6ff74efc6c
+
+    04421-0002-Setup.sps                -       -         -       2014-02-11  09c48c1ca197efa009ed7e4450e3adb3
+
+
+DS0003 School District Governments
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04421-0003-Codebook.pdf             -       -         -       2014-02-11  2765db259ee02ad7cbe66c07579d930a
+
+    04421-0003-Data.dta                 -       15,834    62      2014-02-11  309258f4221449794eb8fb8e93ca2fa4
+
+    04421-0003-Data.rda                 -       15,834    62      2014-02-11  ebc508c54da608d22bcaaae2920e44df
+
+    04421-0003-Data.sav                 -       15,834    62      2014-02-11  579c25534b7f5f9693ea798677dffe3c
+
+    04421-0003-Data.stc                 -       15,834    62      2014-02-11  6c6c0e2d052c9be92632ba739cedb28c
+
+    04421-0003-Data.tsv                 -       15,834    62      2014-02-11  fb1f30674776505fff7c3d6b5b6f7eff
+
+    04421-0003-Data.txt                 413     15,834    62      2014-02-11  6b4cf769ab87491e7ae49e735d426914
+
+    04421-0003-Setup.dct                -       -         -       2014-02-11  54237c78e07ee6517a59b86dd2967ed7
+
+    04421-0003-Setup.do                 -       -         -       2014-02-11  4cbbc550c2721a4e3f3d5d088a6f9695
+
+    04421-0003-Setup.sas                -       -         -       2014-02-11  04ecfea6dc2120b728f960a8b4d336d1
+
+    04421-0003-Setup.sps                -       -         -       2014-02-11  8555b47a3bb81d9a8e426966c1f441e0
+
+
+Version History
+
+2014-02-11 SPSS, SAS, and Stata setup files, as well as SPSS and Stata
+system files, a SAS transport (CPORT) file, a tab-delimited data file, and
+an R data file have been added to the collection. Additionally, a codebook
+has been created.
