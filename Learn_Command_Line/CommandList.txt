@@ -1,0 +1,48 @@
+Title: Command List
+Author: David Simpson
+Date: July 15, 2018
+
+This document has a quick and helpful list of code for use in a command line.
+
+pwd = print working directory
+cd = change directory
+ls = list --> it will list all the items in a folder
+mv = move --> you use it to move a fiel from one directory to a
+mvdir = move a directory
+rm = remove a file to delete it
+rmdir = remove a directory --> note all files in the directory must be removed 1st
+man = manual --> man <command> will print the manual for that command
+
+history --> prints the command history
+!<command> will exeucture the last entry of that command
+cat = concatenate and will printt he whole file
+head --> prints the head of a file
+tail --> prints the rows of a file 
+cut --> prints select columns 
+grep --> prints select rows
+paste --> prints the data of two files side by side
+
+nano --> nano followed by a txt file name creates a text file.
+> will allow you to save the output of a command as a new file
+	for example "tail -n 5 seasonal/winter.csv > last.csv"
+	This will save the last 5 rows as a new csv file
+
+Piping --> allows you to not have to create intermediate files in between commands
+	Instead pipe an output into another command using |
+
+	Example: head -n 5 seasonal/summmer.csv | tail -n 3
+	This will give you rows 3 4 5 from the summer.csv file
+
+	Piping can be used multiple times
+Write a pipeline that uses cut, grep, and head in that order to select the first value in column 2 of seasonal/autumn.csv after the header "Tooth".
+	cut -d , -f 2 seasonal/autumn.csv | grep -v Tooth | head -n 1
+
+wc = Word Count	--> shows lines words characters
+	options -c -w and -l to print only individuals ones
+
+Get rid of the first column from multiple data files at onece:
+	cut -d , -f 1 seaonsal/winter.csv seasonal/spring.csv seasonal/summer.csv
+
+* matchzeor or more characters --> dont have to list every file eg
+	cut -d , -f 1 seasonal/*
+	cut -d , -f 1 seasonal/*.csv

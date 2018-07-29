@@ -27,5 +27,5 @@ library("gmodels") # will allow you to use CrossTable() to do cross tabs
 # ********************************************************************************
 data = read.csv("pop92.csv")
 unique(data$State) # 51 Observations = 50 states and the district of Columbia
-CrossTable(data$State, prop.r = T,  format="SPSS") # Frequency of each state
+CrossTable(data$State, prop.r = T,  format="SPSS") # Frequency of each stategg
 

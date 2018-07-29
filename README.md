@@ -1,6 +1,4 @@
 # GitHub
 David's personal GitHub repo
-readme test
 
-
-added a line here check it out.
+This folder contains various projects that I am working on.
