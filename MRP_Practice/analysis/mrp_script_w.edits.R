@@ -43,6 +43,7 @@ library("dplyr") # For data manipulation and other -- Added by David
 #            age 18-29 who are college graduates
 #         -- Need a dataset of the population counts for each demogrpahic-state type (or "cell")
 # Step 5 - Fit a regression model for an individual survey response given demographics and geogrpahy
+#         --
 # Step 6 - Postratify the demographic-geographic types
 # 
 
@@ -85,12 +86,26 @@ Census$cp.relig.full <- Census$cp.evang.full + Census$cp.mormon.full
 Census$cp.kerry.full <-  Statelevel$kerry.04[Census$cstate.initnum]
 
 
-#run individual-level opinion model
+# Step 5: run individual-level opinion model
+#   Model treates each individual's response as a funciton of his or her demographics and state
+#     (for individual i, with indexes j,k,l,m.s and,p for race-gender combo, age cat, edu cat, region
+#     state, and poll respectively, and including an age-edu interaction):
+
+#   Assume evach variable is drawn form a normal distribution with mean zero and some estimated variance for the
+#   variables race-gender, age, education, age-edu, poll
+
+#   State effects are in turn modeled as a funciton of the region into which the state falls and the state's 
+#   conservative religious percentage and Democratic 2004 vote share
 
 individual.model <- glmer(formula = yes.of.all ~ (1|race.female) + (1|age.cat) 
-  + (1|edu.cat) + (1|age.edu.cat) + (1|state) + (1|region) + (1|poll) + p.relig.full 
+  + (1|edu.cat) + (1|age.edu.cat) + (1|state) + (1|region) + (1|poll) + p.relig.full
         + p.kerry.full,data=marriage.data, family=binomial(link="logit"))
 display(individual.model)
+
+# Note: glmer = Generalized Linear Mixed-Effects Models --> has both fixed effects and random effects
+#       Random-effects terms are distinguished by vertical bars ("|") separating expressions for design
+#         matrices from grouping factors
+
 
 #examine random effects and standard errors for race-female
 ranef(individual.model)$race.female
@@ -102,8 +117,9 @@ dimnames(state.ranefs) <- list(c(Statelevel$sstate),"effect")
 for(i in Statelevel$sstate){
     state.ranefs[i,1] <- ranef(individual.model)$state[i,1]
 }
-state.ranefs[,1][is.na(state.ranefs[,1])] <- 0 #set states with missing REs (b/c not in data) to zero
+state.ranefs[,1][is.na(state.ranefs[,1])] <- 0 #set states with missing REs (b/c not in data) to zero (Since no repsonses from AK HI)
 
+# Step 6: Post stratification
 
 #create a prediction for each cell in Census data
 cellpred <- invlogit(fixef(individual.model)["(Intercept)"]
