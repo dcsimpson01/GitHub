@@ -1,0 +1,54 @@
+---
+layout: post
+title: "RushingYards"
+author: "David Simpson"
+date: "2018-10-11"
+output:      
+  html_document:
+        keep_md: true
+---
+# Rushing Yards through October 9, 2018
+
+Here's a quick post using NCAA rushing data. The data was downloaded from the [NCAA website](https://www.ncaa.com/stats/football/fbs/current/individual/469) on October 11, 2018.
+
+Below is just a simple graph showing the relationship between rushing attempts and rushing yards by position. I'll do something more interesting with the data in a future post. I also included the R code in case you are interested.
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+setwd("/Users/dsimp/GitHub/RushingData/analysis")
+```
+
+```{r load packages, echo=FALSE}
+rm(list=ls(all=TRUE))
+library("ggplot2")
+#library("tidyr")
+#library("reshape2")
+#library("foreign") 
+```
+
+```{r Data, echo=FALSE}
+setwd("/Users/dsimp/GitHub/RushingData/raw")
+data = read.csv("RushingData.csv")
+```
+
+
+```{r graphs, echo=TRUE}
+ggplot(data, aes(RUSH,RUSH.YDS,col=factor(POSITION)))+
+  geom_point()+
+  labs(x ="Attempts", y= "Yards", 
+       title = "Rushing Attempts and Yards by Position", color="Position")
+```
+
+```{r graphs, echo=TRUE}
+ggplot(data, aes(x=RUSH.YDS/G,y=RUSH.YDS/RUSH,col=factor(POSITION)))+
+  geom_point()+
+  labs(x ="Yards per Game", y= "Yards Per Carry", 
+       title = "Yards per Carry vs Yards per Game", color="Position")
+```
+
+```{r graphs, echo=TRUE}
+ggplot(data, aes(x=RUSH,y=RUSH.YDS/G,col=factor(POSITION)))+
+  geom_point()+
+  labs(x ="Attempts", y= "Yards per Game", 
+       title = "Yards per Game vs Attempts", color="Position")
+```

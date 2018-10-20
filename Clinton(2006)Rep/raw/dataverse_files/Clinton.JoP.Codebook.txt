@@ -1,0 +1,71 @@
+#########################################################
+##	Josh Clinton
+##	Princeton University
+##	Codebook for "Representation in Congress: Constituents and Roll Calls"
+##	Forthcoming in Journal of Politics
+##	May 2005
+#########################################################
+
+
+File: 	HOUSE.106.AKN.dta (STATA)
+	HOUSE.106.AKN.R	(R data-table)
+
+
+x106mean:	1D ideal point estimate for district representative in 106th House using IDEAL (posterior mean)
+
+x106_prec	Precision for 1D ideal point estimate. 
+		To get (posterior) standard error use: 1/ sqrt(x106_prec).
+
+x106kmean:	1D ideal point estimate for district representative in 106th House using IDEAL (posterior mean) and only “key” votes identified by CQ Quarterly.
+
+x106_k_prec	Standard error (posterior standard deviation) for 1D “key” ideal point estimate. 
+		To get (posterior) standard error use: 1/ sqrt(x106_k_prec).
+
+cdcoden		Identifier for congressional district (based on Spatial Insight code).  Arranged alphabetical by state.
+
+pty		ICPSR 3-digit party code (100,200,328) for representative in 106th House
+
+lc		Average ideology for all survey respondents in district – merged KN and ANES.
+
+splc		Average ideology for same-party survey respondents in district – merged KN and 	ANES.
+	
+nsplc		Average ideology for non-same-party survey respondents in district – merged KN and ANES.
+
+sdlc		Standard deviation of ideology for all survey respondents in district – merged KN and ANES.
+
+sdsplc		Standard deviation of ideology for same-party survey respondents in district – merged KN and ANES.
+	
+sdnsplc		Standard deviation of ideology for non-same-party survey respondents in district – merged KN and ANES.
+
+numg		Number of respondents in district – merged KN and ANES.
+
+	NOTE:	numg > numsp + numnsp because numg includes all respondents; including those with missing PID and ideology.
+
+numsp		Number of same-party respondents in district – merged KN and ANES.
+
+numnsp		Number of non-same-party respondents in district – merged KN and ANES.
+
+#########################################################
+##	Used in preliminary investigations but of potential interest
+#########################################################
+
+
+oplc		Average ideology for survey respondents in district self-identifying with the opposite party of the incumbent (i.e., out-party)– merged KN and ANES.
+
+ilc		Average ideology for survey respondents in district self-identifying as independents – merged KN and ANES.
+
+sdoplc		Standard deviation of ideology for survey respondents in district self-identifying with the opposite party of the incumbent (i.e., out-party)– merged KN and ANES.
+
+sdilc		Standard deviation of ideology for survey respondents in district self-identifying as independents – merged KN and ANES.
+
+numop		Number of out-party respondents in district – merged KN and ANES.
+
+numi		Number of independent respondents in district – merged KN and ANES.
+
+	NOTE:	numnsp = numi+numop.
+
+pvcd		Average two-party presidential vote in district from 1992, 1996, 2000
+
+cdarea		Size of district in 106th House from Spatial Insight (square miles).
+
+tenure		Years in congress as of the 106th House.

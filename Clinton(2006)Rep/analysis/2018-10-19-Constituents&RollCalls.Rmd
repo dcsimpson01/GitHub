@@ -1,0 +1,147 @@
+---
+layout: post
+title: "ConstituentsRollCalls"
+author: "David Simpson"
+date: "2018-10-19"
+output:      
+  html_document:
+        keep_md: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+I recently read Joshua Clinton's "Representation in Congress: Constituents and Roll Calls in the 106th House," a [research paper](https://www.jstor.org/stable/10.1111/j.1468-2508.2006.00415.x?pq-origsite=summon&seq=1#metadata_info_tab_contents) published in *The Journal of Politics* in 2006. Clinton (2006) studies the relationship between district level ideology scores and US House Representative's policy preferences as revealed through their voting behavior. Clinton (2006) finds that Republican legislators are only repsonive to their same-party district level constituents, whereas Democratic legislators are only responsive their nonsame-party district level constitutents. Clinton's findings are puzzling, so I plan to review his findings over the coming weeks. Clinton's replication data is available online through [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=hdl:1902.1/10573).
+
+Clinton's definition of nonsame-party voters includes both independents and voters who identify with the opposite party of their elected representative. My hypothesis is that Clinton's finding - that Democratic legislators are only responsive to their nonsame-party district level constituents - is contingent on how independent voters are classified.
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+setwd("/Users/dsimp/GitHub/RushingData/analysis")
+rm(list=ls())
+library(ggplot2)
+#install.packages("ggpubr")
+#install.packages("gridExtra")
+library("gridExtra")
+library("ggpubr")
+```
+
+
+Below is Clinton (2006)'s findings
+
+```{r Clinton, echo=TRUE}
+HOUSE.106<-read.table(file="/Users/dsimp/GitHub/Clinton(2006)Rep/raw/dataverse_files/HOUSE.106.AKN.R")
+
+R<-HOUSE.106$pty
+R[R==100]<-0
+R[R==200]<-1
+R[R==328]<-0
+
+
+#####################################
+#   PLOT JOINT DISTRIBUTION
+#####################################
+
+rep<-HOUSE.106$pty
+rep[rep==100]<-2
+rep[rep==200]<-17
+rep[rep==328]<-2
+
+par(mfrow=c(2,2))
+plot(HOUSE.106$lc,HOUSE.106$x106mean,xlab="District Ideology",ylab="Rep. Induced Preference",pch=rep)
+plot(HOUSE.106$splc,HOUSE.106$x106mean,xlab="Same-Party Ideology",ylab="Rep. Induced Preference", pch=rep)
+plot(HOUSE.106$lc,HOUSE.106$splc,ylab="Same-Party Ideology",xlab="District Ideology", pch=rep)
+plot(HOUSE.106$splc,HOUSE.106$nsplc,ylab="Same-Party Ideology",xlab="Non-Same-Party Ideology", pch=rep)
+
+```
+
+```{r Replication, include= FALSE}
+party = R
+party[party==0] = "Democrat"
+party[party==1] = "Republican"
+
+p1= ggplot(HOUSE.106, aes(x = HOUSE.106$lc, y = HOUSE.106$x106mean, col = party, shape=party))+
+  geom_point() + geom_smooth(method = "lm")  +
+  scale_colour_manual(values=c("#0000ff", "#ff0000"))+
+  labs(x ="District Ideology", y= "Rep Induced Preference", 
+       title = "Rep. Preference vs Dist. Ideology", 
+       shape="Rep Party")+
+  guides(col=FALSE)+ theme(legend.position="bottom") + guides(shape = FALSE)
+p1
+
+p2= ggplot(HOUSE.106, aes(x = HOUSE.106$splc, y = HOUSE.106$x106mean, col = party, shape=party))+
+  geom_point() + geom_smooth(method = "lm")  +
+  scale_colour_manual(values=c("#0000ff", "#ff0000"))+
+  labs(x ="Same Party Ideology", y= "Rep Induced Preference", 
+       title = "Rep. Preference vs Same Party Ideology", 
+       shape="Rep Party")+
+  guides(col=FALSE, shape = FALSE) # + theme(legend.position="bottom")
+p2
+
+
+p3= ggplot(HOUSE.106, aes(x = HOUSE.106$lc, y = HOUSE.106$splc, col = party, shape=party))+
+  geom_point() +  geom_smooth(method = "lm")  +
+  scale_colour_manual(values=c("#0000ff", "#ff0000"))+
+  labs(x ="District Ideology", y= "Same Party Ideology", 
+       title = "Dist.: Same Party vs Average", 
+       shape="Rep Party")+
+  guides(col=FALSE) + theme(legend.position="bottom")
+p3
+
+
+p4= ggplot(HOUSE.106, aes(x = HOUSE.106$splc, y = HOUSE.106$nsplc, col = party, shape=party))+
+  geom_point() +  geom_smooth(method = "lm")  +
+  scale_colour_manual(values=c("#0000ff", "#ff0000"))+
+  labs(x ="Same Party Ideology", y= "Nonsame Party Ideology", 
+       title = "Dist. Ideology: Nonsame Party vs Same Party", 
+       shape="Rep Party")+
+  guides(col=FALSE) + theme(legend.position="bottom")
+p4
+
+
+plot1 = ggarrange(p1, p2, p3, p4, 
+          labels = c("A", "B", "C", "D"),
+          ncol = 2, nrow = 2)
+
+plot1
+
+
+
+
+
+
+
+
+```
+
+
+
+My hypothesis is that Clinton's findings are related to how independent voters are classified.
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+Citations:
+
+Joshua D. Clinton. 2006. "Representation in Congress: Constituents and Roll Calls in the 106th House," Journal of Politics 68(2):397-409.
+
+Joshua D. Clinton, 2009, "Replication data for: Representation in Congress: Constituents and Roll Calls in the 106th House", https://hdl.handle.net/1902.1/10573, Harvard Dataverse, V1, UNF:3:t+/VddUfFADKtOKo6VsarQ== [fileUNF]

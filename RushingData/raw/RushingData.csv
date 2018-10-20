@@ -1,0 +1,201 @@
+RANK,NAME,TEAM,CL,POSITION,G,RUSH,RUSH YDS,RUSH TD
+1,Darrell Henderson,Memphis,Jr.,RB,6,79,934,12
+2,Jermar Jefferson,Oregon St.,Fr.,RB,6,130,865,12
+3,Jonathan Taylor,Wisconsin,So.,RB,5,126,849,8
+4,Travis Etienne,Clemson,So.,RB,6,83,761,11
+5,Trayveon Williams,Texas A&M,Jr.,RB,6,120,751,7
+6,Eno Benjamin,Arizona St.,So.,RB,6,126,715,7
+7,Benny Snell Jr.,Kentucky,Jr.,RB,6,128,699,8
+8,Michael Warren II,Cincinnati,So.,RB,6,124,664,11
+9,AJ Dillon,Boston College,So.,RB,5,106,652,6
+10,Justice Hill,Oklahoma St.,Jr.,RB,6,101,643,7
+11,Scottie Phillips,Ole Miss,Jr.,RB,6,90,637,8
+12,Devin Singletary,Fla. Atlantic,Jr.,RB,6,131,627,14
+13,Ryquell Armstead,Temple,Sr.,RB,6,122,626,6
+14,Nico Evans,Wyoming,Sr.,RB,4,78,612,4
+15,Alex Barnes,Kansas St.,Jr.,RB,6,104,607,5
+16,Jordan Crokrite,South Fla.,Jr.,RB,4,69,606,5
+17,J.J. Taylor,Arizona,So.,RB,6,104,600,3
+18,Qadree Ollison,Pittsburgh,Sr.,RB,6,92,596,5
+19,Malcolm Perry,Navy,Jr.,QB,5,105,584,6
+20,Karan Higdon,Michigan,Sr.,RB,5,101,582,5
+21,Nick Brossette,LSU,Sr.,RB,6,118,576,8
+22,Taquon Marshall,Georgia Tech,Sr.,QB,6,111,557,9
+23,Myles Gaskin,Washington,Sr.,RB,6,124,554,5
+24,Zack Moss,Utah,Jr.,RB,5,95,549,6
+25,Pooka Williams,Kansas,Fr.,RB,5,72,539,4
+26,Miles Sanders,Penn St.,Jr.,RB,5,87,538,6
+27,Levante Bellamy,Western Mich.,Jr.,RB,6,79,531,4
+28,Travon McMillian,Colorado,Sr.,RB,5,84,528,4
+-,Stevie Scott,Indiana,Fr.,RB,6,107,528,4
+30,Nick Fitzgerald,Mississippi St.,Sr.,QB,5,98,513,7
+-,Juwan Washington,San Diego St.,Jr.,RB,4,99,513,5
+32,Trey Ragas,Louisiana,So.,RB,5,72,505,4
+33,Lexington Thomas,UNLV,Sr.,RB,5,85,501,5
+34,Armani Rogers,UNLV,So.,QB,4,71,488,6
+35,Jordan Ellis,Virginia,Sr.,RB,5,84,478,6
+36,B.J. Smith,Troy,Jr.,RB,6,74,476,8
+37,Kylin Hill,Mississippi St.,So.,RB,6,68,474,3
+38,Darius Bradwell,Tulane,Jr.,RB,6,78,469,5
+39,David Pindell,UConn,Sr.,QB,6,87,467,5
+40,Kevin Marks,Buffalo,Fr.,RB,6,82,466,7
+41,Reggie Corbin,Illinois,Jr.,RB,5,59,464,5
+42,J.K. Dobbins,Ohio St.,So.,RB,6,99,462,4
+43,Justin Rankin,Kent St.,Jr.,RB,6,80,461,3
+44,Spencer Brown,UAB,So.,RB,5,100,455,6
+45,Shai Werts,Ga. Southern,So.,QB,5,85,454,8
+46,Cade Carney,Wake Forest,Jr.,RB,6,85,446,4
+47,Jordan Mason,Georgia Tech,So.,RB,6,58,443,4
+48,Austin Walter,Rice,Sr.,RB,6,77,440,4
+49,Ke'Shawn Vaughn,Vanderbilt,Jr.,RB,6,65,439,5
+50,Eric Dungey,Syracuse,Sr.,QB,6,77,435,7
+-,Emmanuel Esukpa,Rice,Jr.,RB,6,110,435,2
+52,Travis Homer,Miami (FL),Jr.,RB,6,84,434,1
+53,Toa Taua,Nevada,Fr.,RB,6,64,433,4
+54,Elijah Holyfield,Georgia,Jr.,RB,6,58,432,3
+55,Marcus Outlow,Coastal Caro.,Sr.,RB,5,85,429,6
+56,James Gilbert,Ball St.,Jr.,RB,6,92,421,5
+-,Tobias Oliver,Georgia Tech,So.,QB,5,54,421,7
+58,CJ Verdell,Oregon,Fr.,RB,5,68,420,2
+-,Mike Weber,Ohio St.,Sr.,RB,6,74,420,3
+60,Tre Harbison,Northern Ill.,So.,RB,6,83,419,3
+61,Benny Lemay,Charlotte,Jr.,RB,5,86,414,3
+-,Jatarvious Whitlow,Auburn,Fr.,RB,6,69,414,4
+63,Braeden West,SMU,Sr.,RB,6,82,412,4
+64,Corey Dauphine,Tulane,Jr.,RB,6,43,411,5
+-,Corey Taylor II,Tulsa,So.,RB,5,92,411,4
+66,Trace McSorley,Penn St.,Sr.,QB,5,66,410,6
+67,Andrew Clair,Bowling Green,So.,RB,6,98,409,3
+68,Kevin Mensah,UConn,So.,RB,6,102,407,2
+69,Moe Neal,Syracuse,Jr.,RB,6,86,405,2
+70,Jalin Moore,Appalachian St.,Sr.,RB,5,63,400,6
+71,Marquis Young,Massachusetts,Sr.,RB,7,79,399,4
+72,Kelvin Hopkins Jr.,Army West Point,Jr.,QB,5,92,397,4
+73,Nathan Rourke,Ohio,Jr.,QB,5,50,391,3
+74,D.J. Knox,Purdue,Sr.,RB,5,70,390,5
+75,Mike Epstein,Illinois,So.,RB,5,57,387,3
+76,Loren Easly,North Texas,Jr.,RB,4,74,386,4
+77,Larry Rountree,Missouri,So.,RB,5,68,383,4
+78,Najee Harris,Alabama,So.,RB,6,56,382,4
+79,Wesley Fields,Ga. Southern,Sr.,RB,5,70,379,3
+80,Kyler Murray,Oklahoma,Jr.,QB,6,57,377,5
+81,Shamari Brooks,Tulsa,So.,RB,4,92,375,4
+82,Darwin Thompson,Utah St.,Jr.,RB,5,45,374,6
+83,Deejay Dallas,Miami (FL),So.,RB,6,58,369,2
+84,Steven Peoples,Virginia Tech,Sr.,RB,5,64,366,5
+85,Kai Locksley,UTEP,Jr.,QB,5,98,363,4
+86,Cam Akers,Florida St.,So.,RB,6,88,362,1
+-,Raheem Blackshear,Rutgers,So.,RB,6,78,362,2
+88,Damien Harris,Alabama,Sr.,RB,6,51,361,3
+89,Brandon McIlwain,California,So.,QB,5,58,359,4
+-,Tyrone Owens,New Mexico,Sr.,RB,5,95,359,6
+91,Quardraiz Wadley,UTEP,Jr.,RB,6,64,358,3
+92,Damarea Crockett,Missouri,Jr.,RB,5,70,353,3
+-,Elijah Mitchell,Louisiana,So.,RB,5,49,353,4
+94,Gerold Bright,Utah St.,Jr.,RB,5,54,349,4
+95,Trey Sermon,Oklahoma,So.,RB,6,64,348,3
+96,Alexander Mattison,Boise St.,Jr.,RB,5,84,347,6
+97,Adrian Killins,UCF,Jr.,RB,5,65,346,4
+-,Jeremy Larkin,Northwestern,So.,RB,3,72,346,5
+99,Bryce Perkins,Virginia,Jr.,QB,5,76,341,3
+100,Freddie Holly III,Hawaii,So.,RB,7,74,340,4
+101,Dexter Williams,Notre Dame,Sr.,RB,2,38,339,4
+102,Patrick Taylor,Memphis,Jr.,RB,6,51,337,6
+103,Tyler King,Marshall,So.,RB,5,65,335,1
+-,Aca'Cedric Ware,Southern California,Sr.,RB,5,54,335,3
+105,Squally Canada,BYU,Sr.,RB,6,71,334,5
+-,David Montgomery,Iowa St.,Jr.,RB,4,82,334,3
+107,Izzy Matthews,Colorado St.,Sr.,RB,6,83,333,2
+-,Kerrith Whyte,Fla. Atlantic,Jr.,RB,6,48,333,4
+109,Rico Dowdle,South Carolina,Jr.,RB,5,76,332,2
+110,Clyde Edwards-Helaire,LSU,So.,RB,6,70,330,5
+111,Dayton Furuta,Hawaii,Jr.,RB,7,52,329,1
+112,Bryce Love,Stanford,Sr.,RB,4,76,327,3
+113,Anthony McFarland,Maryland,Fr.,RB,5,36,325,2
+114,Reggie Gallaspy,NC State,Sr.,RB,5,89,324,7
+115,Jeremy Cox,Old Dominion,Sr.,RB,6,80,323,3
+116,Shaq Vann,Eastern Mich.,Sr.,RB,6,83,318,2
+117,Brittain Brown,Duke,So.,RB,5,62,317,2
+-,Darnell Woolfolk,Army West Point,Sr.,RB,5,78,317,4
+119,Darius Anderson,TCU,Jr.,RB,5,53,316,2
+120,Desmond Ridder,Cincinnati,Fr.,QB,6,68,315,4
+121,Darrin Hall,Pittsburgh,Sr.,RB,6,48,314,4
+122,Chase Jasmin,San Diego St.,So.,RB,5,69,311,2
+-,Bryce Williams,Minnesota,Fr.,RB,5,79,311,1
+124,CJ Marable,Coastal Caro.,So.,RB,5,45,308,5
+125,Jabir Daughtry-Frye,Troy,So.,RB,6,32,307,2
+126,A.J. Ouellette,Ohio,Sr.,RB,5,82,306,4
+127,Terry Wilson Jr.,Kentucky,So.,QB,6,66,304,3
+128,Gary Brightwell,Arizona,So.,RB,6,55,303,2
+-,Ty Johnson,Maryland,Sr.,RB,5,45,303,2
+130,Tony Jones Jr.,Notre Dame,Jr.,RB,6,58,302,3
+131,Caleb Evans,La.-Monroe,Jr.,QB,6,66,301,3
+132,Maleek Irons,Ohio,Sr.,RB,4,45,299,4
+-,Jaret Patterson,Buffalo,Fr.,RB,6,53,299,4
+-,Artavis Pierce,Oregon St.,Jr.,RB,3,30,299,3
+-,Tre Watson,Texas,Sr.,RB,6,76,299,1
+136,Lyn-J Dixon,Clemson,Fr.,RB,5,27,298,2
+-,Marcel Murray,Arkansas St.,Fr.,RB,6,55,298,2
+138,Christian Gibson,New Mexico St.,Jr.,RB,6,37,297,2
+139,Leddie Brown,West Virginia,Fr.,RB,5,51,296,3
+140,Rakeem Boyd,Arkansas,So.,RB,6,46,294,0
+141,Keaontay Ingram,Texas,Fr.,RB,5,47,293,2
+142,Patrick Carr,Houston,Jr.,RB,5,45,292,1
+143,Patrick Laird,California,Sr.,RB,5,81,290,2
+-,Alonzo Smith,Miami (OH),Sr.,RB,6,65,290,2
+-,D'Andre Swift,Georgia,So.,RB,6,59,290,4
+146,Matt Colburn II,Wake Forest,Sr.,RB,6,78,289,2
+-,Devine Ozigbo,Nebraska,Sr.,RB,5,51,289,3
+148,Kennedy McKoy,West Virginia,Jr.,RB,5,48,288,2
+149,Jamauri Bogan,Western Mich.,Sr.,RB,6,64,287,4
+150,Toren Young,Iowa,So.,RB,5,54,286,2
+151,Jamycal Hasty,Baylor,Jr.,RB,6,48,285,3
+152,Adam Choice,Clemson,Sr.,RB,6,36,283,2
+153,Antonio Williams,North Carolina,Jr.,RB,4,43,281,3
+154,Stephen Carr,Southern California,So.,RB,5,47,276,1
+-,Joshua Kelley,UCLA,Jr.,RB,4,43,276,1
+156,Jonathan Hilliman,Rutgers,Sr.,RB,6,62,275,5
+157,Shawndarrius Phillips,FIU,Jr.,RB,5,61,274,4
+158,Dan Ellington,Georgia St.,Jr.,QB,6,85,270,4
+159,B.J. Daniels,UTSA,So.,RB,6,69,269,3
+160,Jordan Scarlett,Florida,Jr.,RB,6,54,268,2
+161,Ben Glines,Boston College,Jr.,WR,6,49,265,2
+162,Sewo Olonilua,TCU,Jr.,RB,5,58,262,1
+163,Kaleb Barker,Troy,Jr.,QB,6,57,261,3
+164,James Williams,Washington St.,Jr.,RB,6,64,260,5
+165,Tavion Thomas,Cincinnati,Fr.,RB,4,37,259,4
+166,Salvon Ahmed,Washington,So.,RB,6,40,258,2
+-,AJ Bush,Illinois,Sr.,QB,3,44,258,2
+-,Mohamed Ibrahim,Minnesota,Fr.,RB,3,48,258,0
+-,Tim Jordan,Tennessee,So.,RB,5,63,258,2
+170,Derrick Gore,La.-Monroe,Sr.,RB,6,57,257,3
+-,Deon Jackson,Duke,So.,RB,5,59,257,4
+-,Napoleon Maxwell,FIU,Sr.,RB,5,50,257,3
+173,Lamical Perine,Florida,Jr.,RB,6,46,255,2
+-,Dameon Pierce,Florida,Fr.,RB,6,25,255,2
+175,Travis Dye,Oregon,Fr.,RB,5,46,253,2
+-,Monteo Garrett,Ga. Southern,Sr.,RB,5,44,253,3
+-,Mitchell Guadagni,Toledo,Jr.,QB,4,42,253,2
+-,Adrian Martinez,Nebraska,Fr.,QB,4,53,253,3
+179,Cole Fagan,Air Force,Jr.,RB,5,68,252,2
+180,Ta'Zhawn Henry,Texas Tech,Fr.,RB,5,54,251,7
+-,Kam Martin,Auburn,Jr.,RB,6,67,251,1
+182,Marcus Jones,Northern Ill.,Sr.,RB,6,45,249,1
+183,Ty Chandler,Tennessee,So.,RB,4,40,247,1
+-,Deshawn McClease,Virginia Tech,Jr.,RB,5,51,247,1
+185,Jafar Armstrong,Notre Dame,So.,WR,4,47,245,5
+186,Jaqwis Dancy,Louisiana Tech,Jr.,RB,3,27,242,4
+-,Darrynton Evans,Appalachian St.,So.,RB,5,35,242,2
+188,Taiwan Deal,Wisconsin,Sr.,RB,5,39,241,3
+189,Markell Jones,Purdue,Sr.,RB,5,43,240,1
+190,Khari Blasingame,Vanderbilt,Sr.,DB,6,47,238,1
+191,Asim Rose,Kentucky,Jr.,RB,6,36,237,4
+192,Mike Glass III,Eastern Mich.,Sr.,QB,5,48,236,4
+-,Bryant Koback,Toledo,Fr.,RB,5,46,236,5
+194,Tyler Badie,Missouri,Fr.,RB,5,50,234,1
+-,AJ Erdely,UAB,Sr.,QB,5,49,234,4
+196,Tommy Lazzaro,Central Mich.,Jr.,QB,4,55,233,2
+-,John Lovett,Baylor,So.,RB,5,44,233,3
+-,Zac Thomas,Appalachian St.,So.,QB,5,39,233,6
+199,Jordan Mims,Fresno St.,So.,RB,5,63,232,4
+200,Devwah Whaley,Arkansas,Jr.,RB,4,53,231,2

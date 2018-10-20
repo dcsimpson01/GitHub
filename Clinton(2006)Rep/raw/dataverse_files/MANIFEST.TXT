@@ -1,0 +1,8 @@
+Clinton.JoP.Codebook.txt (text/plain) 3139 bytes.
+Clinton.JoP.Descriptive.R (text/plain; charset=US-ASCII) 3948 bytes.
+Clinton.JoP.do (text/x-stata-syntax; charset=US-ASCII) 5210 bytes.
+Clinton.JoP.vote.by.vote.R (text/plain; charset=US-ASCII) 9050 bytes.
+Clinton.JoP.WebAppendix.zip (application/zip) 217844 bytes.
+hou106kh.ord.txt (text/plain; charset=US-ASCII) 548240 bytes.
+HOUSE.106.AKN.R (text/plain; charset=US-ASCII) 123337 bytes.
+HOUSE.106.AKN.dta (application/x-stata) 73124 bytes.
