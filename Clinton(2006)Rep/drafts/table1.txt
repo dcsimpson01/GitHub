@@ -1,0 +1,35 @@
+
+\begin{sidewaystable}[!htbp] \centering 
+  \caption{} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lccccccc} 
+\\[-1.8ex]\hline \\[-1.8ex] 
+Statistic & \multicolumn{1}{c}{N} & \multicolumn{1}{c}{Mean} & \multicolumn{1}{c}{St. Dev.} & \multicolumn{1}{c}{Min} & \multicolumn{1}{c}{Pctl(25)} & \multicolumn{1}{c}{Pctl(75)} & \multicolumn{1}{c}{Max} \\ 
+\hline \\[-1.8ex] 
+Legislator Ideal Pt & 432 & 0.324 & 0.527 & $-$1.000 & $-$0.139 & 0.802 & 1.240 \\ 
+Legisaltor Ideal Pt KV & 432 & 0.036 & 0.941 & $-$2.010 & $-$0.752 & 0.818 & 2.110 \\ 
+Legislator Ideal Pt Prec & 432 & 45726.000 & 660212.000 & 98.300 & 519.000 & 933.000 & 9736997.000 \\ 
+Legislator Ideal Pt KV Prec & 432 & 46029.000 & 675447.000 & 2.540 & 7.510 & 26.900 & 10074884.000 \\ 
+District & 432 & 2797.000 & 1571.000 & 101 & 1304.0 & 4102.0 & 5600 \\ 
+Party & 432 & 152.000 & 50.700 & 100 & 100 & 200 & 328 \\ 
+Mean Ideolgoy & 432 & 0.126 & 0.172 & $-$0.618 & 0.034 & 0.253 & 0.526 \\ 
+Mean SP Ideology & 432 & 0.211 & 0.487 & $-$0.858 & $-$0.257 & 0.661 & 1.000 \\ 
+Mean NSP Ideology & 432 & 0.098 & 0.244 & $-$0.541 & $-$0.105 & 0.303 & 0.667 \\ 
+Mean OP Ideology & 432 & 0.173 & 0.443 & $-$0.667 & $-$0.243 & 0.597 & 1.190 \\ 
+Mean IND Ideology & 432 & 0.047 & 0.161 & $-$0.500 & $-$0.048 & 0.140 & 0.467 \\ 
+StDev Ideology & 432 & 0.928 & 0.056 & 0.762 & 0.891 & 0.960 & 1.220 \\ 
+StDev SP Ideology & 432 & 0.834 & 0.091 & 0.577 & 0.773 & 0.887 & 1.210 \\ 
+StDev NSP Ideology & 432 & 0.879 & 0.080 & 0.681 & 0.823 & 0.923 & 1.330 \\ 
+StDev OP Ideology & 432 & 0.843 & 0.115 & 0.515 & 0.775 & 0.903 & 1.550 \\ 
+StDev IND Ideology & 432 & 0.852 & 0.104 & 0.577 & 0.786 & 0.910 & 1.280 \\ 
+Respondents & 432 & 232.000 & 152.000 & 41 & 178 & 254 & 2099 \\ 
+SP Respondents & 432 & 86.600 & 44.500 & 15 & 64 & 99.2 & 571 \\ 
+NSP Respondents & 432 & 125.000 & 103.000 & 18 & 94 & 140 & 1443 \\ 
+IND Respondents & 432 & 61.300 & 68.500 & 8 & 43 & 67 & 984 \\ 
+OP Respondents & 432 & 64.100 & 39.500 & 6 & 45 & 76 & 459 \\ 
+Avg 2P Pres Vote & 432 & 0.536 & 0.130 & 0.252 & 0.450 & 0.600 & 0.924 \\ 
+District SqMi & 432 & 8.030 & 7.390 & $-$1 & 2 & 12 & 43 \\ 
+Tenure & 432 & 8727.000 & 34470.000 & 0.000 & 421.000 & 7708.000 & 654334.000 \\ 
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{sidewaystable} 

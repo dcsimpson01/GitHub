@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Simpson_Research_Proposal.aux
+The style file: chicago.bst
+Database file #1: citations.bib
+Warning--no number and no volume in Broockman2016
+Warning--page numbers missing in Broockman2016
+Warning--no number and no volume in Lax2018
+Warning--page numbers missing in Lax2018
+You've used 10 entries,
+            2861 wiz_defined-function locations,
+            680 strings with 6465 characters,
+and the built_in function-call counts, 6545 in all, are:
+= -- 564
+> -- 443
+< -- 0
++ -- 132
+- -- 154
+* -- 586
+:= -- 1196
+add.period$ -- 29
+call.type$ -- 10
+change.case$ -- 69
+chr.to.int$ -- 10
+cite$ -- 14
+duplicate$ -- 173
+empty$ -- 406
+format.name$ -- 178
+if$ -- 1194
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 9
+newline$ -- 52
+num.names$ -- 100
+pop$ -- 41
+preamble$ -- 1
+purify$ -- 129
+quote$ -- 0
+skip$ -- 186
+stack$ -- 0
+substring$ -- 375
+swap$ -- 57
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 200
+warning$ -- 4
+while$ -- 102
+width$ -- 0
+write$ -- 130
+(There were 4 warnings)
