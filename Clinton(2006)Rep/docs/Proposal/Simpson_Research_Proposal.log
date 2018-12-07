@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  29 NOV 2018 15:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  6 DEC 2018 17:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1140,7 +1140,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
  [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/histogram-1.pdf, id=124, 434.62375
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/histogram-1.pdf, id=128, 434.62375
 pt x 430.60875pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/histogram-1.pdf Graphic file 
 (type pdf)
@@ -1150,7 +1150,7 @@ Package pdftex.def Info: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/histogram-
 1.pdf used on input line 110.
 (pdftex.def)             Requested size: 143.09538pt x 141.77278pt.
 
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/histogram-2.pdf, id=125, 434.62375
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/histogram-2.pdf, id=129, 434.62375
 pt x 430.60875pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/histogram-2.pdf Graphic file 
 (type pdf)
@@ -1160,7 +1160,7 @@ Package pdftex.def Info: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/histogram-
 2.pdf used on input line 111.
 (pdftex.def)             Requested size: 143.09538pt x 141.77278pt.
 
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/histo_change.pdf, id=126, 543.0287
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/histo_change.pdf, id=130, 543.0287
 5pt x 446.66875pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/histo_change.pdf Graphic file
  (type pdf)
@@ -1170,7 +1170,7 @@ Package pdftex.def Info: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/histo_chan
 ge.pdf used on input line 112.
 (pdftex.def)             Requested size: 143.09538pt x 117.70554pt.
 
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/histogram-3.pdf, id=127, 434.62375
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/histogram-3.pdf, id=131, 434.62375
 pt x 430.60875pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/histogram-3.pdf Graphic file 
 (type pdf)
@@ -1180,7 +1180,7 @@ Package pdftex.def Info: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/histogram-
 3.pdf used on input line 117.
 (pdftex.def)             Requested size: 143.09538pt x 141.77278pt.
 
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/histogram-4.pdf, id=128, 543.02875
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/histogram-4.pdf, id=132, 543.02875
 pt x 446.66875pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/histogram-4.pdf Graphic file 
 (type pdf)
@@ -1190,7 +1190,7 @@ Package pdftex.def Info: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/histogram-
 4.pdf used on input line 118.
 (pdftex.def)             Requested size: 143.09538pt x 117.70554pt.
 
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/histogram-5.pdf, id=129, 543.02875
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/histogram-5.pdf, id=133, 543.02875
 pt x 446.66875pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/histogram-5.pdf Graphic file 
 (type pdf)
@@ -1200,7 +1200,7 @@ Package pdftex.def Info: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/histogram-
 5.pdf used on input line 119.
 (pdftex.def)             Requested size: 143.09538pt x 117.70554pt.
 
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/histogram-6.pdf, id=130, 543.02875
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/histogram-6.pdf, id=134, 543.02875
 pt x 446.66875pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/histogram-6.pdf Graphic file 
 (type pdf)
@@ -1210,7 +1210,7 @@ Package pdftex.def Info: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/histogram-
 6.pdf used on input line 124.
 (pdftex.def)             Requested size: 143.09538pt x 117.70554pt.
 
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/histogram-7.pdf, id=131, 543.02875
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/histogram-7.pdf, id=135, 543.02875
 pt x 446.66875pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/histogram-7.pdf Graphic file 
 (type pdf)
@@ -1220,7 +1220,7 @@ Package pdftex.def Info: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/histogram-
 7.pdf used on input line 125.
 (pdftex.def)             Requested size: 143.09538pt x 117.70554pt.
 
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/histo_diff.pdf, id=132, 543.02875p
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/histo_diff.pdf, id=136, 543.02875p
 t x 446.66875pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/histo_diff.pdf Graphic file (
 type pdf)
@@ -1242,7 +1242,7 @@ s/histogram-3.pdf> </Users/dsimp/GitHub/Clinton(2006)Rep/drafts/histogram-4.pdf
 itHub/Clinton(2006)Rep/drafts/histogram-6.pdf> </Users/dsimp/GitHub/Clinton(200
 6)Rep/drafts/histogram-7.pdf> </Users/dsimp/GitHub/Clinton(2006)Rep/drafts/hist
 o_diff.pdf>]
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-1.pdf, id=213, 505.89pt x 50
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-1.pdf, id=217, 505.89pt x 50
 5.89pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-1.pdf Graphic file (typ
 e pdf)
@@ -1251,7 +1251,7 @@ Package pdftex.def Info: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-1.pd
 f used on input line 149.
 (pdftex.def)             Requested size: 130.08733pt x 130.0848pt.
 
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-2.pdf, id=214, 505.89pt x 50
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-2.pdf, id=218, 505.89pt x 50
 5.89pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-2.pdf Graphic file (typ
 e pdf)
@@ -1260,7 +1260,7 @@ Package pdftex.def Info: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-2.pd
 f used on input line 150.
 (pdftex.def)             Requested size: 130.08733pt x 130.0848pt.
 
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-3.pdf, id=215, 505.89pt x 50
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-3.pdf, id=219, 505.89pt x 50
 5.89pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-3.pdf Graphic file (typ
 e pdf)
@@ -1269,7 +1269,7 @@ Package pdftex.def Info: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-3.pd
 f used on input line 151.
 (pdftex.def)             Requested size: 130.08733pt x 130.0848pt.
 
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-4.pdf, id=216, 505.89pt x 50
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-4.pdf, id=220, 505.89pt x 50
 5.89pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-4.pdf Graphic file (typ
 e pdf)
@@ -1278,7 +1278,7 @@ Package pdftex.def Info: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-4.pd
 f used on input line 159.
 (pdftex.def)             Requested size: 130.08733pt x 130.0848pt.
 
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-5.pdf, id=217, 505.89pt x 50
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-5.pdf, id=221, 505.89pt x 50
 5.89pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-5.pdf Graphic file (typ
 e pdf)
@@ -1287,7 +1287,7 @@ Package pdftex.def Info: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-5.pd
 f used on input line 160.
 (pdftex.def)             Requested size: 130.08733pt x 130.0848pt.
 
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-6.pdf, id=218, 505.89pt x 50
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-6.pdf, id=222, 505.89pt x 50
 5.89pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-6.pdf Graphic file (typ
 e pdf)
@@ -1296,7 +1296,7 @@ Package pdftex.def Info: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-6.pd
 f used on input line 161.
 (pdftex.def)             Requested size: 130.08733pt x 130.0848pt.
 
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-7.pdf, id=219, 505.89pt x 50
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-7.pdf, id=223, 505.89pt x 50
 5.89pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-7.pdf Graphic file (typ
 e pdf)
@@ -1305,7 +1305,7 @@ Package pdftex.def Info: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-7.pd
 f used on input line 169.
 (pdftex.def)             Requested size: 130.08733pt x 130.0848pt.
 
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-8.pdf, id=220, 505.89pt x 50
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-8.pdf, id=224, 505.89pt x 50
 5.89pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-8.pdf Graphic file (typ
 e pdf)
@@ -1314,7 +1314,7 @@ Package pdftex.def Info: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-8.pd
 f used on input line 170.
 (pdftex.def)             Requested size: 130.08733pt x 130.0848pt.
 
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-9.pdf, id=221, 505.89pt x 50
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-9.pdf, id=225, 505.89pt x 50
 5.89pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-9.pdf Graphic file (typ
 e pdf)
@@ -1323,7 +1323,7 @@ Package pdftex.def Info: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-9.pd
 f used on input line 171.
 (pdftex.def)             Requested size: 130.08733pt x 130.0848pt.
 
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-10.pdf, id=222, 505.89pt x 5
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-10.pdf, id=226, 505.89pt x 5
 05.89pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-10.pdf Graphic file (ty
 pe pdf)
@@ -1332,7 +1332,7 @@ Package pdftex.def Info: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-10.p
 df used on input line 179.
 (pdftex.def)             Requested size: 130.08733pt x 130.0848pt.
 
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-11.pdf, id=223, 505.89pt x 5
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-11.pdf, id=227, 505.89pt x 5
 05.89pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-11.pdf Graphic file (ty
 pe pdf)
@@ -1341,7 +1341,7 @@ Package pdftex.def Info: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-11.p
 df used on input line 180.
 (pdftex.def)             Requested size: 130.08733pt x 130.0848pt.
 
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-12.pdf, id=224, 505.89pt x 5
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-12.pdf, id=228, 505.89pt x 5
 05.89pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-12.pdf Graphic file (ty
 pe pdf)
@@ -1366,22 +1366,17 @@ afts/plot1-7.pdf> </Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-8.pdf> </U
 sers/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-9.pdf> </Users/dsimp/GitHub/Cli
 nton(2006)Rep/drafts/plot1-10.pdf> </Users/dsimp/GitHub/Clinton(2006)Rep/drafts
 /plot1-11.pdf> </Users/dsimp/GitHub/Clinton(2006)Rep/drafts/plot1-12.pdf>]
-(/Users/dsimp/GitHub/Clinton(2006)Rep/drafts/table2.txt
-Overfull \hbox (71.42867pt too wide) in paragraph at lines 5--33
- [][] 
- []
-
-)
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me-1.pdf, id=354, 579.16376pt x 42
-8.60126pt>
+(/Users/dsimp/GitHub/Clinton(2006)Rep/drafts/table2.txt)
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me-1.pdf, id=358, 489.83pt x 392.4
+6625pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me-1.pdf Graphic file (type p
 df)
  <use /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me-1.pdf>
 Package pdftex.def Info: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me-1.pdf u
 sed on input line 240.
-(pdftex.def)             Requested size: 195.12767pt x 144.40143pt.
+(pdftex.def)             Requested size: 195.12767pt x 156.33694pt.
 
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me-2.pdf, id=355, 579.16376pt x 42
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me-2.pdf, id=359, 579.16376pt x 42
 8.60126pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me-2.pdf Graphic file (type p
 df)
@@ -1390,7 +1385,7 @@ Package pdftex.def Info: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me-2.pdf u
 sed on input line 241.
 (pdftex.def)             Requested size: 195.12767pt x 144.40143pt.
 
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me-3.pdf, id=356, 579.16376pt x 42
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me-3.pdf, id=360, 579.16376pt x 42
 8.60126pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me-3.pdf Graphic file (type p
 df)
@@ -1399,7 +1394,7 @@ Package pdftex.def Info: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me-3.pdf u
 sed on input line 245.
 (pdftex.def)             Requested size: 195.12767pt x 144.40143pt.
 
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me-4.pdf, id=357, 579.16376pt x 42
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me-4.pdf, id=361, 579.16376pt x 42
 8.60126pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me-4.pdf Graphic file (type p
 df)
@@ -1415,121 +1410,121 @@ Underfull \hbox (badness 10000) in paragraph at lines 236--252
 [7] [8] [9 </Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me-1.pdf> </Users/dsimp
 /GitHub/Clinton(2006)Rep/drafts/me-2.pdf> </Users/dsimp/GitHub/Clinton(2006)Rep
 /drafts/me-3.pdf> </Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me-4.pdf>]
-[10] (/Users/dsimp/GitHub/Clinton(2006)Rep/drafts/table3.txt
+[10] [11] (/Users/dsimp/GitHub/Clinton(2006)Rep/drafts/table3.txt
 Overfull \hbox (33.9497pt too wide) in paragraph at lines 5--42
  [][] 
  []
 
 )
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me2-1.pdf, id=416, 480.79625pt x 3
-93.47pt>
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me2-1.pdf, id=426, 489.83pt x 392.
+46625pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me2-1.pdf Graphic file (type 
 pdf)
  <use /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me2-1.pdf>
 Package pdftex.def Info: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me2-1.pdf 
-used on input line 296.
-(pdftex.def)             Requested size: 108.405pt x 88.71304pt.
+used on input line 304.
+(pdftex.def)             Requested size: 108.405pt x 86.85185pt.
 
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me2-3.pdf, id=417, 480.79625pt x 3
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me2-3.pdf, id=427, 480.79625pt x 3
 93.47pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me2-3.pdf Graphic file (type 
 pdf)
  <use /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me2-3.pdf>
 Package pdftex.def Info: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me2-3.pdf 
-used on input line 297.
+used on input line 305.
 (pdftex.def)             Requested size: 108.405pt x 88.71304pt.
 
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me2-5.pdf, id=418, 480.79625pt x 3
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me2-5.pdf, id=428, 480.79625pt x 3
 93.47pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me2-5.pdf Graphic file (type 
 pdf)
  <use /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me2-5.pdf>
 Package pdftex.def Info: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me2-5.pdf 
-used on input line 298.
+used on input line 306.
 (pdftex.def)             Requested size: 108.405pt x 88.71304pt.
 
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me2-2.pdf, id=419, 529.98pt x 422.
-57875pt>
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me2-2.pdf, id=429, 489.83pt x 392.
+46625pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me2-2.pdf Graphic file (type 
 pdf)
  <use /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me2-2.pdf>
 Package pdftex.def Info: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me2-2.pdf 
-used on input line 303.
-(pdftex.def)             Requested size: 108.405pt x 86.43576pt.
+used on input line 311.
+(pdftex.def)             Requested size: 108.405pt x 86.85185pt.
 
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me2-4.pdf, id=420, 480.79625pt x 3
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me2-4.pdf, id=430, 480.79625pt x 3
 93.47pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me2-4.pdf Graphic file (type 
 pdf)
  <use /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me2-4.pdf>
 Package pdftex.def Info: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me2-4.pdf 
-used on input line 304.
+used on input line 312.
 (pdftex.def)             Requested size: 108.405pt x 88.71304pt.
 
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me2-6.pdf, id=421, 480.79625pt x 3
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me2-6.pdf, id=431, 480.79625pt x 3
 93.47pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me2-6.pdf Graphic file (type 
 pdf)
  <use /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me2-6.pdf>
 Package pdftex.def Info: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me2-6.pdf 
-used on input line 305.
+used on input line 313.
 (pdftex.def)             Requested size: 108.405pt x 88.71304pt.
 
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me3-1.pdf, id=422, 480.79625pt x 3
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me3-1.pdf, id=432, 480.79625pt x 3
 93.47pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me3-1.pdf Graphic file (type 
 pdf)
  <use /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me3-1.pdf>
 Package pdftex.def Info: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me3-1.pdf 
-used on input line 312.
+used on input line 320.
 (pdftex.def)             Requested size: 108.405pt x 88.71304pt.
 
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me3-3.pdf, id=423, 480.79625pt x 3
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me3-3.pdf, id=433, 480.79625pt x 3
 93.47pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me3-3.pdf Graphic file (type 
 pdf)
  <use /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me3-3.pdf>
 Package pdftex.def Info: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me3-3.pdf 
-used on input line 313.
+used on input line 321.
 (pdftex.def)             Requested size: 108.405pt x 88.71304pt.
 
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me3-5.pdf, id=424, 480.79625pt x 3
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me3-5.pdf, id=434, 480.79625pt x 3
 93.47pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me3-5.pdf Graphic file (type 
 pdf)
  <use /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me3-5.pdf>
 Package pdftex.def Info: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me3-5.pdf 
-used on input line 314.
+used on input line 322.
 (pdftex.def)             Requested size: 108.405pt x 88.71304pt.
 
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me3-2.pdf, id=425, 480.79625pt x 3
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me3-2.pdf, id=435, 480.79625pt x 3
 93.47pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me3-2.pdf Graphic file (type 
 pdf)
  <use /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me3-2.pdf>
 Package pdftex.def Info: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me3-2.pdf 
-used on input line 319.
+used on input line 327.
 (pdftex.def)             Requested size: 108.405pt x 88.71304pt.
 
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me3-4.pdf, id=426, 480.79625pt x 3
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me3-4.pdf, id=436, 480.79625pt x 3
 93.47pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me3-4.pdf Graphic file (type 
 pdf)
  <use /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me3-4.pdf>
 Package pdftex.def Info: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me3-4.pdf 
-used on input line 320.
+used on input line 328.
 (pdftex.def)             Requested size: 108.405pt x 88.71304pt.
 
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me3-6.pdf, id=427, 480.79625pt x 3
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me3-6.pdf, id=437, 480.79625pt x 3
 93.47pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me3-6.pdf Graphic file (type 
 pdf)
  <use /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me3-6.pdf>
 Package pdftex.def Info: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me3-6.pdf 
-used on input line 321.
+used on input line 329.
 (pdftex.def)             Requested size: 108.405pt x 88.71304pt.
- [11]
-[12 </Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me2-1.pdf> </Users/dsimp/GitHu
+ [12]
+[13 </Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me2-1.pdf> </Users/dsimp/GitHu
 b/Clinton(2006)Rep/drafts/me2-3.pdf> </Users/dsimp/GitHub/Clinton(2006)Rep/draf
 ts/me2-5.pdf> </Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me2-2.pdf> </Users/d
 simp/GitHub/Clinton(2006)Rep/drafts/me2-4.pdf> </Users/dsimp/GitHub/Clinton(200
@@ -1537,122 +1532,122 @@ simp/GitHub/Clinton(2006)Rep/drafts/me2-4.pdf> </Users/dsimp/GitHub/Clinton(200
  </Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me3-3.pdf> </Users/dsimp/GitHub/C
 linton(2006)Rep/drafts/me3-5.pdf> </Users/dsimp/GitHub/Clinton(2006)Rep/drafts/
 me3-2.pdf> </Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me3-4.pdf> </Users/dsim
-p/GitHub/Clinton(2006)Rep/drafts/me3-6.pdf>] [13]
+p/GitHub/Clinton(2006)Rep/drafts/me3-6.pdf>] [14]
 (/Users/dsimp/GitHub/Clinton(2006)Rep/drafts/table4.txt
 Overfull \hbox (32.02577pt too wide) in paragraph at lines 5--42
  [][] 
  []
 
 )
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me4-1.pdf, id=503, 480.79625pt x 3
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me4-1.pdf, id=513, 480.79625pt x 3
 93.47pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me4-1.pdf Graphic file (type 
 pdf)
  <use /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me4-1.pdf>
 Package pdftex.def Info: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me4-1.pdf 
-used on input line 356.
+used on input line 366.
 (pdftex.def)             Requested size: 108.405pt x 88.71304pt.
 
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me4-3.pdf, id=504, 480.79625pt x 3
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me4-3.pdf, id=514, 480.79625pt x 3
 93.47pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me4-3.pdf Graphic file (type 
 pdf)
  <use /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me4-3.pdf>
 Package pdftex.def Info: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me4-3.pdf 
-used on input line 357.
+used on input line 367.
 (pdftex.def)             Requested size: 108.405pt x 88.71304pt.
 
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me4-5.pdf, id=505, 480.79625pt x 3
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me4-5.pdf, id=515, 480.79625pt x 3
 93.47pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me4-5.pdf Graphic file (type 
 pdf)
  <use /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me4-5.pdf>
 Package pdftex.def Info: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me4-5.pdf 
-used on input line 358.
+used on input line 368.
 (pdftex.def)             Requested size: 108.405pt x 88.71304pt.
 
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me4-2.pdf, id=506, 480.79625pt x 3
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me4-2.pdf, id=516, 480.79625pt x 3
 93.47pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me4-2.pdf Graphic file (type 
 pdf)
  <use /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me4-2.pdf>
 Package pdftex.def Info: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me4-2.pdf 
-used on input line 363.
+used on input line 373.
 (pdftex.def)             Requested size: 108.405pt x 88.71304pt.
 
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me4-4.pdf, id=507, 480.79625pt x 3
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me4-4.pdf, id=517, 480.79625pt x 3
 93.47pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me4-4.pdf Graphic file (type 
 pdf)
  <use /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me4-4.pdf>
 Package pdftex.def Info: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me4-4.pdf 
-used on input line 364.
+used on input line 374.
 (pdftex.def)             Requested size: 108.405pt x 88.71304pt.
 
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me4-6.pdf, id=508, 480.79625pt x 3
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me4-6.pdf, id=518, 480.79625pt x 3
 93.47pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me4-6.pdf Graphic file (type 
 pdf)
  <use /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me4-6.pdf>
 Package pdftex.def Info: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me4-6.pdf 
-used on input line 365.
+used on input line 375.
 (pdftex.def)             Requested size: 108.405pt x 88.71304pt.
 
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me5-1.pdf, id=509, 480.79625pt x 3
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me5-1.pdf, id=519, 480.79625pt x 3
 93.47pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me5-1.pdf Graphic file (type 
 pdf)
  <use /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me5-1.pdf>
 Package pdftex.def Info: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me5-1.pdf 
-used on input line 372.
+used on input line 382.
 (pdftex.def)             Requested size: 108.405pt x 88.71304pt.
 
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me5-3.pdf, id=510, 480.79625pt x 3
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me5-3.pdf, id=520, 480.79625pt x 3
 93.47pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me5-3.pdf Graphic file (type 
 pdf)
  <use /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me5-3.pdf>
 Package pdftex.def Info: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me5-3.pdf 
-used on input line 373.
+used on input line 383.
 (pdftex.def)             Requested size: 108.405pt x 88.71304pt.
 
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me5-5.pdf, id=511, 480.79625pt x 3
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me5-5.pdf, id=521, 480.79625pt x 3
 93.47pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me5-5.pdf Graphic file (type 
 pdf)
  <use /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me5-5.pdf>
 Package pdftex.def Info: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me5-5.pdf 
-used on input line 374.
+used on input line 384.
 (pdftex.def)             Requested size: 108.405pt x 88.71304pt.
 
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me5-2.pdf, id=512, 480.79625pt x 3
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me5-2.pdf, id=522, 480.79625pt x 3
 93.47pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me5-2.pdf Graphic file (type 
 pdf)
  <use /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me5-2.pdf>
 Package pdftex.def Info: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me5-2.pdf 
-used on input line 379.
+used on input line 389.
 (pdftex.def)             Requested size: 108.405pt x 88.71304pt.
 
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me5-4.pdf, id=513, 480.79625pt x 3
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me5-4.pdf, id=523, 480.79625pt x 3
 93.47pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me5-4.pdf Graphic file (type 
 pdf)
  <use /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me5-4.pdf>
 Package pdftex.def Info: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me5-4.pdf 
-used on input line 380.
+used on input line 390.
 (pdftex.def)             Requested size: 108.405pt x 88.71304pt.
 
-</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me5-6.pdf, id=514, 480.79625pt x 3
+</Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me5-6.pdf, id=524, 480.79625pt x 3
 93.47pt>
 File: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me5-6.pdf Graphic file (type 
 pdf)
  <use /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me5-6.pdf>
 Package pdftex.def Info: /Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me5-6.pdf 
-used on input line 381.
+used on input line 391.
 (pdftex.def)             Requested size: 108.405pt x 88.71304pt.
- [14]
-[15 </Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me4-1.pdf> </Users/dsimp/GitHu
+ [15]
+[16 </Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me4-1.pdf> </Users/dsimp/GitHu
 b/Clinton(2006)Rep/drafts/me4-3.pdf> </Users/dsimp/GitHub/Clinton(2006)Rep/draf
 ts/me4-5.pdf> </Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me4-2.pdf> </Users/d
 simp/GitHub/Clinton(2006)Rep/drafts/me4-4.pdf> </Users/dsimp/GitHub/Clinton(200
@@ -1660,28 +1655,34 @@ simp/GitHub/Clinton(2006)Rep/drafts/me4-4.pdf> </Users/dsimp/GitHub/Clinton(200
  </Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me5-3.pdf> </Users/dsimp/GitHub/C
 linton(2006)Rep/drafts/me5-5.pdf> </Users/dsimp/GitHub/Clinton(2006)Rep/drafts/
 me5-2.pdf> </Users/dsimp/GitHub/Clinton(2006)Rep/drafts/me5-4.pdf> </Users/dsim
-p/GitHub/Clinton(2006)Rep/drafts/me5-6.pdf>] [16]
-(/Users/dsimp/GitHub/Clinton(2006)Rep/drafts/table1.txt) [17] [18]
-(./Simpson_Research_Proposal.bbl) [19]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 448.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 448.
+p/GitHub/Clinton(2006)Rep/drafts/me5-6.pdf>] [17]
+(/Users/dsimp/GitHub/Clinton(2006)Rep/drafts/table1.txt) [18] [19]
+(./Simpson_Research_Proposal.bbl) [20]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 458.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 458.
  (./Simpson_Research_Proposal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 448.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 448.
-Package rerunfilecheck Info: File `Simpson_Research_Proposal.out' has not chang
-ed.
-(rerunfilecheck)             Checksum: 765846C2040A863254BAA4A883213A0B;628.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 458.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 458.
 
+
+Package rerunfilecheck Warning: File `Simpson_Research_Proposal.out' has change
+d.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Simpson_Research_Proposal.out':
+(rerunfilecheck)             Before: 1500FC7974AAB1AA652328B8E17D2ED8;712
+(rerunfilecheck)             After:  F956EFE07ADF3EA6A7A853176C7E9EEC;758.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 448.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 458.
  ) 
 Here is how much of TeX's memory you used:
- 19397 strings out of 493014
- 362951 string characters out of 6133351
+ 19401 strings out of 493014
+ 362997 string characters out of 6133351
  433819 words of memory out of 5000000
- 22454 multiletter control sequences out of 15000+600000
+ 22455 multiletter control sequences out of 15000+600000
  12769 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,12n,77p,1022b,448s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1703,10 +1704,10 @@ ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
 exmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Simpson_Research_Proposal.pdf (19 pages, 963513 bytes).
+Output written on Simpson_Research_Proposal.pdf (20 pages, 968107 bytes).
 PDF statistics:
- 678 PDF objects out of 1000 (max. 8388607)
- 535 compressed objects within 6 object streams
- 55 named destinations out of 1000 (max. 500000)
- 346 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 689 PDF objects out of 1000 (max. 8388607)
+ 545 compressed objects within 6 object streams
+ 58 named destinations out of 1000 (max. 500000)
+ 354 words of extra memory for PDF output out of 10000 (max. 10000000)
 

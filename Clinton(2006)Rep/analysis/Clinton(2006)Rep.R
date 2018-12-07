@@ -328,8 +328,8 @@ summary(lm(x106mean ~ 0+ C_pctsp * splc  + C_pctnsp * nsplc + R , data = data, w
 summary(lm(x106mean ~ 0+ C_pctsp * splc  + C_pcti * ilc + C_pctop * oplc + R, data = data, weights = C_N))
 summary(lm(x106mean ~ 0+ C_pctsp * splc  + C_pcti * ilc + R, data = data, weights = C_N))
 
-
-summary(lm(x106mean ~ 0 + C_pctsp * splc + C_pcti * ilc + C_pctop * oplc, data = subset(data, R==0), weights = C_N))
+summary(lm(x106kmean ~ 0 + C_pctsp * splc + C_pcti * ilc + C_pctop * oplc, data = data, weights = C_N))
+summary(lm(x106kmean ~ 0 + C_pctsp * splc + C_pcti * ilc + C_pctop * oplc, data = subset(data, R==0), weights = C_N))
 summary(lm(x106mean ~  C_pctsp * splc + C_pcti * ilc + C_pctop * oplc, data = subset(data, R==0), weights = C_N))
 # Important to let data vary with % opposite party
 
