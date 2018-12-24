@@ -1,0 +1,26 @@
+\begin{table}[!h]
+
+\caption{\label{tab:}Welch's t-test - Party Mean Ideal Points}
+\centering
+\begin{tabular}[t]{lllll}
+\toprule
+\multicolumn{1}{c}{} & \multicolumn{2}{c}{All Votes} & \multicolumn{2}{c}{Key Votes} \\
+\cmidrule(l{2pt}r{2pt}){2-3} \cmidrule(l{2pt}r{2pt}){4-5}
+\multicolumn{1}{c}{ } & \multicolumn{1}{c}{Ideal} & \multicolumn{1}{c}{Abs Ideal} & \multicolumn{1}{c}{Ideal} & \multicolumn{1}{c}{Abs Ideal}\\
+\midrule
+Republican & 0.792 & 0.792 & 0.837 & 0.84\\
+Democratic & -0.171 & 0.235 & -0.811 & 0.819\\
+Difference & -0.963 & -0.557 & -1.65 & -0.0218\\
+t-stat & -46.1 & -31.5 & -37.7 & -0.509\\
+p-value & 8.87e-160 & 7.84e-114 & 6.11e-137 & 0.611\\
+\addlinespace
+df & 389 & 429 & 422 & 423\\
+CI-Low & -1 & -0.592 & -1.73 & -0.106\\
+CI-High & -0.922 & -0.522 & -1.56 & 0.0623\\
+\bottomrule
+\multicolumn{5}{l}{\textsuperscript{a} Note: Among all votes Republicans (Democrats) have 0 (51)}\\
+\multicolumn{5}{l}{observation(s) less (greater) than zero. Among key votes}\\
+\multicolumn{5}{l}{\# Republicans (Democrats) have 1 (5) observation(s) less}\\
+\multicolumn{5}{l}{(greater) than zero.}\\
+\end{tabular}
+\end{table}

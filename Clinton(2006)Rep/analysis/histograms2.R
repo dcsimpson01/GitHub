@@ -17,169 +17,79 @@
 
 
 #####################################
-# Begin: Simpson Histogram Votes and KeyVotes
+# Begin: Histogram of Party Shares
 #####################################
-# NEXT STEP: Need to change the variable names from Ideology to Ideal Pt
-#Plot 1 - 
-
-### Distribution of All Votes
-h1 = ggplot(data, aes(x=data$x106mean, color=data$partyname,fill=data$partyname  ))+
-  geom_histogram(position = "identity",alpha=0.5,binwidth = .1)+ #,aes(y=..density..))+
-  geom_rug()+
-  labs(title="Distribution of Legislator Ideal Points",
-       subtitle = "By Political Party",
-       x="Legislator Ideal Point", y = "Count",
-       color = "Party")+ #guides(fill = FALSE) 
-  theme(legend.position="none")+
-  geom_vline(xintercept = mean(data$x106mean), color = "black", linetype = "dotdash",size=.7)+
-  geom_vline(xintercept = mean(data$x106mean[which(data$partyname=="Democrat")]), color = color[1], linetype = "longdash",size=.7)+ 
-  geom_vline(xintercept = mean(data$x106mean[which(data$partyname=="Republican")]), color = color[2], linetype = "dashed",size=.7)+  
-  scale_colour_manual(values=color)+
-  scale_fill_manual(values=color)
-h1
-ggsave("drafts/histogram-1.pdf")
-
-### Distribution of Key Votes
-h2 = ggplot(data, aes(x=data$x106kmean, color=data$partyname, fill=data$partyname ))+
-  geom_histogram(position = "identity", alpha=0.5,binwidth = .1)+
-  geom_rug()+
-  labs(title="Distribution of Legislator Ideal Points",
-       subtitle = "By Political Party on Key Votes Only",       
-       x="Legislator Ideal Points (Key Votes)", y = "Count",
-       color = "Party")+
-  theme(legend.position="none")+
-  geom_vline(xintercept = mean(data$x106kmean), color = "black", linetype = "dotdash",size=.7)+
-  geom_vline(xintercept = mean(data$x106kmean[which(data$partyname=="Democrat")]), color = color[1], linetype = "longdash",size=.7)+ 
-  geom_vline(xintercept = mean(data$x106kmean[which(data$partyname=="Republican")]), color = color[2], linetype = "dashed",size=.7)+  
-  scale_colour_manual(values=color)+
-  scale_fill_manual(values=color)
-h2
-ggsave("drafts/histogram-2.pdf")
-
-hc <- ggplot(data, aes(x = data$x106mean, y = data$x106kmean,  col = partyname, shape=partyname)) +
-  geom_point()+
-  geom_vline(xintercept = 0)+
-  geom_hline(yintercept = 0)+
-  geom_abline(intercept = 0)+
-  #scale_x_continuous(limits=c(-2,2))+
-  #scale_y_continuous(limits=c(-2,2))+
-  labs(title="Legislator Ideal Point (Key Votes) vs Legislator Ideal Point",
-       x ="Legislator Ideal Point", y= "Legislator Ideal Point (Key Votes)")+
-  scale_colour_manual(values=color)+
-  guides(col=FALSE, shape = FALSE) + theme(legend.position="bottom")  + guides(shape = FALSE)
-hc
-ggsave("drafts/histo_change.pdf")
-
-#####################################
-# End: Simpson Histogram Votes and KeyVotes
-#####################################
-
-#####################################
-# Begin: Simpson Histogram Ideology
-#####################################
-
-### Distribution of District Mean Ideology
-h3 <- ggplot(data, aes(x=data$lc, color=data$partyname,fill=data$partyname))+
+### Distribution of District SP Share
+h21 <- ggplot(data, aes(x=data$C_pctsp, color=data$partyname, fill=data$partyname))+
   geom_histogram(position = "identity", alpha=0.5,binwidth = .05)+ #,aes(y=..density..))+
-  labs(title="Distribution District Ideology",
+  labs(title="Distribution of District SP Share",
        subtitle = "By Legislator's Political Party",
-       x="District Mean Ideology", y = "Count",
+       x="District SP Share", y = "Count",
        color = "Party")+
   geom_rug()+
-  geom_vline(xintercept = mean(data$lc), color = "black", linetype = "dotdash",size=.7)+
-  geom_vline(xintercept = mean(data$lc[which(data$partyname=="Democrat")]), color = color[1], linetype = "longdash",size=.7)+ 
-  geom_vline(xintercept = mean(data$lc[which(data$partyname=="Republican")]), color = color[2], linetype = "dashed",size=.7)+  
+  geom_vline(xintercept = mean(data$C_pctsp), color = "black", linetype = "dotdash",size=.7)+
+  geom_vline(xintercept = mean(data$C_pctsp[which(data$partyname=="Democrat")]), color = color[1], linetype = "longdash",size=.7)+ 
+  geom_vline(xintercept = mean(data$C_pctsp[which(data$partyname=="Republican")]), color = color[2], linetype = "dashed",size=.7)+    
   scale_colour_manual(values=color) +
   scale_fill_manual(values=color)+
   theme(legend.position="none")
-h3
-ggsave("drafts/histogram-3.pdf")
-
-### Distribution of District SP Mean Ideology
-h4 <- ggplot(data, aes(x=data$splc, color=data$partyname, fill=data$partyname))+
-  geom_histogram(position = "identity", alpha=0.5,binwidth = .1)+ #,aes(y=..density..))+
-  labs(title="Distribution of District SP Ideology",
-       subtitle = "By Legislator's Political Party",
-       x="District SP Mean Ideology", y = "Count",
-       color = "Party")+
-  geom_rug()+
-  geom_vline(xintercept = mean(data$splc), color = "black", linetype = "dotdash",size=.7)+
-  geom_vline(xintercept = mean(data$splc[which(data$partyname=="Democrat")]), color = color[1], linetype = "longdash",size=.7)+ 
-  geom_vline(xintercept = mean(data$splc[which(data$partyname=="Republican")]), color = color[2], linetype = "dashed",size=.7)+    
-  scale_colour_manual(values=color) +
-  scale_fill_manual(values=color)+
-  theme(legend.position="none")
-h4
-ggsave("drafts/histogram-4.pdf")
+h21
+ggsave("drafts/histogram/histogram2-1.pdf")
 
 ### Distribution of District NSP Mean Ideology
-h5 <- ggplot(data, aes(x=data$nsplc, color=data$partyname, fill=data$partyname))+
-  geom_histogram(position = "identity", alpha=0.5,binwidth = .1)+ #,aes(y=..density..))+
-  labs(title="Distribution of District NSP Ideology",
+h22 <- ggplot(data, aes(x=data$C_pctnsp, color=data$partyname, fill=data$partyname))+
+  geom_histogram(position = "identity", alpha=0.5,binwidth = .05)+ #,aes(y=..density..))+
+  labs(title="Distribution of District NSP Share",
        subtitle = "By Legislator's Political Party",
        x="District NSP Mean Ideology", y = "Count",
        color = "Party")+
   geom_rug()+
-  geom_vline(xintercept = mean(data$nsplc), color = "black", linetype = "dotdash",size=.7)+
-  geom_vline(xintercept = mean(data$nsplc[which(data$partyname=="Democrat")]), color = color[1], linetype = "longdash",size=.7)+ 
-  geom_vline(xintercept = mean(data$nsplc[which(data$partyname=="Republican")]), color = color[2], linetype = "dashed",size=.7)+    
+  geom_vline(xintercept = mean(data$C_pctnsp), color = "black", linetype = "dotdash",size=.7)+
+  geom_vline(xintercept = mean(data$C_pctnsp[which(data$partyname=="Democrat")]), color = color[1], linetype = "longdash",size=.7)+ 
+  geom_vline(xintercept = mean(data$C_pctnsp[which(data$partyname=="Republican")]), color = color[2], linetype = "dashed",size=.7)+    
   scale_colour_manual(values=color) +
   scale_fill_manual(values=color)+
   theme(legend.position="none")
-h5
-ggsave("drafts/histogram-5.pdf")
+h22
+ggsave("drafts/histogram/histogram2-2.pdf")
 
 
 ### Distribution of District OP Mean Ideology
-h6 <- ggplot(data, aes(x=data$oplc, color=data$partyname, fill=data$partyname))+
-  geom_histogram(position = "identity", alpha=0.5,binwidth = .1)+ #,aes(y=..density..))+
+h23 <- ggplot(data, aes(x=data$C_pctop, color=data$partyname, fill=data$partyname))+
+  geom_histogram(position = "identity", alpha=0.5,binwidth = .05)+ #,aes(y=..density..))+
   theme_classic()+
-  labs(title="Distribution District OP Ideology",
+  labs(title="Distribution District OP Share",
        subtitle = "By Legislator's Political Party",
-       x="District Mean OP Ideology", y = "Count",
+       x="District OP Share", y = "Count",
        color = "Party")+
   geom_rug()+
-  geom_vline(xintercept = mean(data$oplc), color = "black", linetype = "dotdash",size=.7)+
-  geom_vline(xintercept = mean(data$oplc[which(data$partyname=="Democrat")]), color = color[1], linetype = "longdash",size=.7)+ 
-  geom_vline(xintercept = mean(data$oplc[which(data$partyname=="Republican")]), color = color[2], linetype = "dashed",size=.7)+    
+  geom_vline(xintercept = mean(data$C_pctop), color = "black", linetype = "dotdash",size=.7)+
+  geom_vline(xintercept = mean(data$C_pctop[which(data$partyname=="Democrat")]), color = color[1], linetype = "longdash",size=.7)+ 
+  geom_vline(xintercept = mean(data$C_pctop[which(data$partyname=="Republican")]), color = color[2], linetype = "dashed",size=.7)+    
   scale_colour_manual(values=color) +
   scale_fill_manual(values=color)+
   theme(legend.position="none")
-h6
-ggsave("drafts/histogram-6.pdf")
+h23
+ggsave("drafts/histogram/histogram2-3.pdf")
 
 ### Distribution of District IND Mean Ideology
-h7 <- ggplot(data, aes(x=data$ilc, color=data$partyname, fill=data$partyname))+
-  geom_histogram(position = "identity", alpha=0.5,binwidth = .1)+ #,aes(y=..density..))+
+h24 <- ggplot(data, aes(x=data$C_pcti, color=data$partyname, fill=data$partyname))+
+  geom_histogram(position = "identity", alpha=0.5,binwidth = .05)+#,binwidth = .1)+ #,aes(y=..density..))+
   theme_classic()+
-  labs(title="Distribution District IND Ideology",
-       x="District Mean IND Ideology", y = "Count",
+  labs(title="Distribution District IND Share",
+       x="District Mean IND Share", y = "Count",
        color = "Party")+
   geom_rug()+
-  geom_vline(xintercept = mean(data$ilc), color = "black", linetype = "dotdash",size=.7)+
-  geom_vline(xintercept = mean(data$ilc[which(data$partyname=="Democrat")]), color = color[1], linetype = "longdash",size=.7)+ 
-  geom_vline(xintercept = mean(data$ilc[which(data$partyname=="Republican")]), color = color[2], linetype = "dashed",size=.7)+    
+  geom_vline(xintercept = mean(data$C_pcti), color = "black", linetype = "dotdash",size=.7)+
+  geom_vline(xintercept = mean(data$C_pcti[which(data$partyname=="Democrat")]), color = color[1], linetype = "longdash",size=.7)+ 
+  geom_vline(xintercept = mean(data$C_pcti[which(data$partyname=="Republican")]), color = color[2], linetype = "dashed",size=.7)+    
   scale_colour_manual(values=color) +
   scale_fill_manual(values=color)+
   theme(legend.position="none")
-h7
-ggsave("drafts/histogram-7.pdf")
+h24
+ggsave("drafts/histogram/histogram2-4.pdf")
 
-hd <- ggplot(data, aes(x = data$ilc, y = data$oplc,  col = partyname, shape=partyname)) +
-  geom_point()+
-  geom_vline(xintercept = 0)+
-  geom_hline(yintercept = 0)+
-  geom_abline(intercept = 0)+
-  #scale_x_continuous(limits=c(-2,2))+
-  #scale_y_continuous(limits=c(-2,2))+
-  labs(title="Opposite Party Mean vs Independent Mean",
-       x ="Independent Mean Ideology", y= "Opposite Party Mean Ideology")+
-  scale_colour_manual(values=color)+
-  guides(col=FALSE, shape = FALSE) + theme(legend.position="bottom")  + guides(shape = FALSE)
-hd
-ggsave("drafts/histo_diff.pdf")
-
-
+rm(h21,h22,h23,h24)
 #####################################
 # End: Simpson Histogram Ideology
 #####################################

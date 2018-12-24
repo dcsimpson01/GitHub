@@ -1,0 +1,48 @@
+
+\begin{table}[!htbp] \centering 
+  \caption{Interction Models with Same-Party and Non-Same-Party} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lccc} 
+\\[-1.8ex]\hline \\[-1.8ex] 
+\\[-1.8ex] & \multicolumn{3}{c}{\textbf{Legislator Ideal Point}} \\ 
+\\[-1.8ex] & \textbf{Model 1} & \textbf{Model 2} & \textbf{Model 3}\\ 
+\hline \\[-1.8ex] 
+ \% SP x SP Ideology & 1.330$^{***}$ & 1.330$^{***}$ & 1.470$^{***}$ \\ 
+  & (0.513) & (0.513) & (0.498) \\ 
+  \% NSP x NSP Ideology & 3.760$^{***}$ & 3.760$^{***}$ &  \\ 
+  & (1.210) & (1.210) &  \\ 
+  \% IND x IND Ideology &  &  & 3.700 \\ 
+  &  &  & (2.330) \\ 
+  \% OP x OP Ideology &  &  & 3.250$^{***}$ \\ 
+  &  &  & (0.678) \\ 
+  SP Ideology & $-$0.352 & $-$0.352 & $-$0.488$^{*}$ \\ 
+  & (0.275) & (0.275) & (0.262) \\ 
+  NSP Ideology & $-$1.360$^{*}$ & $-$1.360$^{*}$ &  \\ 
+  & (0.731) & (0.731) &  \\ 
+  IND Ideology &  &  & $-$0.664 \\ 
+  &  &  & (0.635) \\ 
+  OP Ideology &  &  & $-$0.661$^{***}$ \\ 
+  &  &  & (0.223) \\ 
+  \% SP & 0.670$^{**}$ & $-$0.595$^{***}$ & $-$0.475$^{***}$ \\ 
+  & (0.268) & (0.160) & (0.168) \\ 
+  \% NSP &  & $-$1.260$^{***}$ &  \\ 
+  &  & (0.150) &  \\ 
+  \% IND &  &  & $-$1.450$^{***}$ \\ 
+  &  &  & (0.216) \\ 
+  \% OP &  &  & $-$1.030$^{***}$ \\ 
+  &  &  & (0.256) \\ 
+  R & 1.820$^{***}$ & 1.820$^{***}$ & 1.770$^{***}$ \\ 
+  & (0.175) & (0.175) & (0.187) \\ 
+  Constant & $-$1.260$^{***}$ &  &  \\ 
+  & (0.150) &  &  \\ 
+ N & 432 & 432 & 432 \\ 
+R-squared & 0.800 & 0.805 & 0.808 \\ 
+Adj. R-squared & 0.797 & 0.801 & 0.804 \\ 
+\hline \\[-1.8ex] 
+\multicolumn{4}{l}{$^{***}$p $<$ .01; $^{**}$p $<$ .05; $^{*}$p $<$ .1} \\ 
+\multicolumn{4}{l}{Note: Model 1 is the Original Clinton Model that omits the} \\ 
+\multicolumn{4}{l}{constitutive terms. Model 2 is the correclty specified model} \\ 
+\multicolumn{4}{l}{omitting the constant terms for marginal effects interpretation} \\ 
+\multicolumn{4}{l}{Model 3 is the model specified with three sub-district groups.} \\ 
+\end{tabular} 
+\end{table} 

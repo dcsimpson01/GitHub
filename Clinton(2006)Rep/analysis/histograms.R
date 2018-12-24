@@ -9,7 +9,7 @@
 # Input Files:  (1)
 #               (2)
 # Output Files: (1) 
-#               (2)
+#               (2) 
 # Note:         Theme is set in the main script
 
 
@@ -19,7 +19,6 @@
 #####################################
 # Begin: Simpson Histogram Votes and KeyVotes
 #####################################
-# NEXT STEP: Need to change the variable names from Ideology to Ideal Pt
 #Plot 1 - 
 
 ### Distribution of All Votes
@@ -37,7 +36,7 @@ h1 = ggplot(data, aes(x=data$x106mean, color=data$partyname,fill=data$partyname 
   scale_colour_manual(values=color)+
   scale_fill_manual(values=color)
 h1
-ggsave("drafts/histogram-1.pdf")
+ggsave("drafts/histogram/histogram-1.pdf")
 
 ### Distribution of Key Votes
 h2 = ggplot(data, aes(x=data$x106kmean, color=data$partyname, fill=data$partyname ))+
@@ -54,21 +53,21 @@ h2 = ggplot(data, aes(x=data$x106kmean, color=data$partyname, fill=data$partynam
   scale_colour_manual(values=color)+
   scale_fill_manual(values=color)
 h2
-ggsave("drafts/histogram-2.pdf")
+ggsave("drafts/histogram/histogram-2.pdf")
 
 hc <- ggplot(data, aes(x = data$x106mean, y = data$x106kmean,  col = partyname, shape=partyname)) +
   geom_point()+
   geom_vline(xintercept = 0)+
   geom_hline(yintercept = 0)+
   geom_abline(intercept = 0)+
-  #scale_x_continuous(limits=c(-2,2))+
-  #scale_y_continuous(limits=c(-2,2))+
+  scale_x_continuous(limits=c(-2.2,2.2))+
+  scale_y_continuous(limits=c(-2.2,2.2))+
   labs(title="Legislator Ideal Point (Key Votes) vs Legislator Ideal Point",
        x ="Legislator Ideal Point", y= "Legislator Ideal Point (Key Votes)")+
   scale_colour_manual(values=color)+
   guides(col=FALSE, shape = FALSE) + theme(legend.position="bottom")  + guides(shape = FALSE)
 hc
-ggsave("drafts/histo_change.pdf")
+ggsave("drafts/histogram/histo_change.pdf")
 
 #####################################
 # End: Simpson Histogram Votes and KeyVotes
@@ -80,7 +79,7 @@ ggsave("drafts/histo_change.pdf")
 
 ### Distribution of District Mean Ideology
 h3 <- ggplot(data, aes(x=data$lc, color=data$partyname,fill=data$partyname))+
-  geom_histogram(position = "identity", alpha=0.5,binwidth = .05)+ #,aes(y=..density..))+
+  geom_histogram(position = "identity", alpha=0.5,binwidth = .1)+ #,aes(y=..density..))+
   labs(title="Distribution District Ideology",
        subtitle = "By Legislator's Political Party",
        x="District Mean Ideology", y = "Count",
@@ -93,7 +92,7 @@ h3 <- ggplot(data, aes(x=data$lc, color=data$partyname,fill=data$partyname))+
   scale_fill_manual(values=color)+
   theme(legend.position="none")
 h3
-ggsave("drafts/histogram-3.pdf")
+ggsave("drafts/histogram/histogram-3.pdf")
 
 ### Distribution of District SP Mean Ideology
 h4 <- ggplot(data, aes(x=data$splc, color=data$partyname, fill=data$partyname))+
@@ -110,7 +109,7 @@ h4 <- ggplot(data, aes(x=data$splc, color=data$partyname, fill=data$partyname))+
   scale_fill_manual(values=color)+
   theme(legend.position="none")
 h4
-ggsave("drafts/histogram-4.pdf")
+ggsave("drafts/histogram/histogram-4.pdf")
 
 ### Distribution of District NSP Mean Ideology
 h5 <- ggplot(data, aes(x=data$nsplc, color=data$partyname, fill=data$partyname))+
@@ -127,7 +126,7 @@ h5 <- ggplot(data, aes(x=data$nsplc, color=data$partyname, fill=data$partyname))
   scale_fill_manual(values=color)+
   theme(legend.position="none")
 h5
-ggsave("drafts/histogram-5.pdf")
+ggsave("drafts/histogram/histogram-5.pdf")
 
 
 ### Distribution of District OP Mean Ideology
@@ -146,7 +145,7 @@ h6 <- ggplot(data, aes(x=data$oplc, color=data$partyname, fill=data$partyname))+
   scale_fill_manual(values=color)+
   theme(legend.position="none")
 h6
-ggsave("drafts/histogram-6.pdf")
+ggsave("drafts/histogram/histogram-6.pdf")
 
 ### Distribution of District IND Mean Ideology
 h7 <- ggplot(data, aes(x=data$ilc, color=data$partyname, fill=data$partyname))+
@@ -163,23 +162,23 @@ h7 <- ggplot(data, aes(x=data$ilc, color=data$partyname, fill=data$partyname))+
   scale_fill_manual(values=color)+
   theme(legend.position="none")
 h7
-ggsave("drafts/histogram-7.pdf")
+ggsave("drafts/histogram/histogram-7.pdf")
 
 hd <- ggplot(data, aes(x = data$ilc, y = data$oplc,  col = partyname, shape=partyname)) +
   geom_point()+
   geom_vline(xintercept = 0)+
   geom_hline(yintercept = 0)+
   geom_abline(intercept = 0)+
-  #scale_x_continuous(limits=c(-2,2))+
-  #scale_y_continuous(limits=c(-2,2))+
+  scale_x_continuous(limits=c(-.7,1.2))+
+  scale_y_continuous(limits=c(-.7,1.2))+
   labs(title="Opposite Party Mean vs Independent Mean",
        x ="Independent Mean Ideology", y= "Opposite Party Mean Ideology")+
   scale_colour_manual(values=color)+
   guides(col=FALSE, shape = FALSE) + theme(legend.position="bottom")  + guides(shape = FALSE)
 hd
-ggsave("drafts/histo_diff.pdf")
+ggsave("drafts/histogram/histo_diff.pdf")
 
-
+rm(h1,h2,h3,h4,h5,h6,h7,hc,hd)
 #####################################
 # End: Simpson Histogram Ideology
 #####################################

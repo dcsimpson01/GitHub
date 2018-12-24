@@ -1,0 +1,49 @@
+
+\begin{table}[!htbp] \centering 
+  \caption{Interction Models with Same-Party and Non-Same-Party} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lccccc} 
+\\[-1.8ex]\hline \\[-1.8ex] 
+\\[-1.8ex] & \multicolumn{5}{c}{\textbf{Legislator Ideal Point}} \\ 
+\\[-1.8ex] & \textbf{Model 1} & \textbf{Model 2} & \textbf{Model 3} & \textbf{Model 4} & \textbf{Model 5}\\ 
+\hline \\[-1.8ex] 
+ \% SP x SP Ideology & 0.804$^{***}$ & 1.010$^{***}$ & 1.010$^{***}$ & 0.654$^{***}$ & 1.160$^{***}$ \\ 
+  & (0.109) & (0.213) & (0.213) & (0.252) & (0.204) \\ 
+  \% NSP x NSP Ideology & 0.768$^{***}$ & 1.980$^{***}$ & 1.980$^{***}$ & $-$0.900$^{*}$ &  \\ 
+  & (0.102) & (0.503) & (0.503) & (0.545) &  \\ 
+  \% IND x IND Ideology &  &  &  &  & 3.050$^{***}$ \\ 
+  &  &  &  &  & (0.957) \\ 
+  \% OP x OP Ideology &  &  &  &  & 1.670$^{***}$ \\ 
+  &  &  &  &  & (0.278) \\ 
+  SP Ideology &  & $-$0.158 & $-$0.158 & 0.596$^{***}$ & $-$0.262$^{**}$ \\ 
+  &  & (0.114) & (0.114) & (0.119) & (0.108) \\ 
+  NSP Ideology &  & $-$0.751$^{**}$ & $-$0.751$^{**}$ & 0.511 &  \\ 
+  &  & (0.303) & (0.303) & (0.345) &  \\ 
+  IND Ideology &  &  &  &  & $-$0.683$^{***}$ \\ 
+  &  &  &  &  & (0.260) \\ 
+  OP Ideology &  &  &  &  & $-$0.346$^{***}$ \\ 
+  &  &  &  &  & (0.092) \\ 
+  \% SP &  & 0.051 & $-$0.170$^{**}$ & $-$0.361$^{***}$ & $-$0.103 \\ 
+  &  & (0.111) & (0.066) & (0.128) & (0.069) \\ 
+  \% NSP &  &  & $-$0.221$^{***}$ &  &  \\ 
+  &  &  & (0.062) &  &  \\ 
+  \% IND &  &  &  &  & $-$0.350$^{***}$ \\ 
+  &  &  &  &  & (0.089) \\ 
+  \% OP &  &  &  &  & $-$0.076 \\ 
+  &  &  &  &  & (0.105) \\ 
+  R & 0.818$^{***}$ & 0.879$^{***}$ & 0.879$^{***}$ & 0.064 & 0.859$^{***}$ \\ 
+  & (0.059) & (0.073) & (0.073) & (0.049) & (0.076) \\ 
+  Constant & $-$0.192$^{***}$ & $-$0.221$^{***}$ &  &  &  \\ 
+  & (0.030) & (0.062) &  &  &  \\ 
+ N & 432 & 432 & 432 & 432 & 432 \\ 
+R-squared & 0.886 & 0.889 & 0.929 & 0.843 & 0.932 \\ 
+Adj. R-squared & 0.885 & 0.888 & 0.928 & 0.841 & 0.930 \\ 
+\hline \\[-1.8ex] 
+\multicolumn{6}{l}{$^{***}$p $<$ .01; $^{**}$p $<$ .05; $^{*}$p $<$ .1} \\ 
+\multicolumn{6}{l}{Note: Model 1 is the Original Clinton Model that omits the constitutive terms. Model 2 } \\ 
+\multicolumn{6}{l}{is the correctly specified model. Model 3 is the correclty specified model omitting the} \\ 
+\multicolumn{6}{l}{constant terms for marginal effects interpretation. Model 4 uses mean centered data.} \\ 
+\multicolumn{6}{l}{However, mean centering the group share variables causes the \%NSP variable to drop} \\ 
+\multicolumn{6}{l}{due to multicolinearity. Model 5 is the model specified with three sub-district groups.} \\ 
+\end{tabular} 
+\end{table} 

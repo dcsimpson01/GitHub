@@ -25,12 +25,12 @@ p1 <- ggplot(data, aes(x = data$lc, y = data$x106mean, col = partyname, shape=pa
        x ="District Ideology", y= "Legislator Ideal Point", 
        shape="Rep Party")+
   scale_colour_manual(values=color)+
-  geom_vline(xintercept = 0)+
-  geom_hline(yintercept = 0)+
-  geom_abline(intercept = 0)+
+  #geom_vline(xintercept = 0)+
+  #geom_hline(yintercept = 0)+
+  #geom_abline(intercept = 0)+
   guides(col=FALSE) + theme(legend.position="bottom") + guides(shape = FALSE)
 p1
-ggsave("drafts/plot1-1.pdf")
+ggsave("drafts/plots/plot1-1.pdf")
 
 #Plot 2 - Ideal Points vs Same-Party Mean Ideology
 p2 <- ggplot(data, aes(x = data$splc, y = data$x106mean,  col = partyname, shape=partyname))+
@@ -43,7 +43,7 @@ p2 <- ggplot(data, aes(x = data$splc, y = data$x106mean,  col = partyname, shape
   scale_colour_manual(values=color)+
   guides(col=FALSE, shape = FALSE) + theme(legend.position="bottom")  + guides(shape = FALSE)
 p2
-ggsave("drafts/plot1-2.pdf")
+ggsave("drafts/plots/plot1-2.pdf")
 
 #Plot 3 - Ideal Points vs Non-Same-Party Mean Ideology
 p3 <- ggplot(data, aes(x = data$nsplc, y = data$x106mean,  col = partyname, shape=partyname))+
@@ -56,7 +56,7 @@ p3 <- ggplot(data, aes(x = data$nsplc, y = data$x106mean,  col = partyname, shap
   scale_colour_manual(values=color)+
   guides(col=FALSE, shape = FALSE) + theme(legend.position="bottom")  + guides(shape = FALSE)
 p3
-ggsave("drafts/plot1-3.pdf")
+ggsave("drafts/plots/plot1-3.pdf")
 
 #Plot 4 -  Ideal Points vs Opposite Mean Ideology
 p4 <- ggplot(data, aes(x = data$oplc, y = data$x106mean,  col = partyname, shape=partyname))+
@@ -69,7 +69,7 @@ p4 <- ggplot(data, aes(x = data$oplc, y = data$x106mean,  col = partyname, shape
   scale_colour_manual(values=color)+
   guides(col=FALSE, shape = FALSE) + theme(legend.position="bottom")  + guides(shape = FALSE)
 p4
-ggsave("drafts/plot1-4.pdf")
+ggsave("drafts/plots/plot1-4.pdf")
 
 #Plot 5 - Ideal Points vs Independent Mean Ideology
 p5 <- ggplot(data, aes(x = data$ilc, y = data$x106mean,  col = partyname, shape=partyname))+
@@ -82,7 +82,7 @@ p5 <- ggplot(data, aes(x = data$ilc, y = data$x106mean,  col = partyname, shape=
   scale_colour_manual(values=color)+
   guides(col=FALSE, shape = FALSE) + theme(legend.position="bottom")  + guides(shape = FALSE)
 p5
-ggsave("drafts/plot1-5.pdf")
+ggsave("drafts/plots/plot1-5.pdf")
 
 #Plot 6 - Same Party Mean vs. District Mean
 p6 <- ggplot(data, aes(x = data$lc, y = data$splc, col = partyname, shape=partyname))+
@@ -95,7 +95,7 @@ p6 <- ggplot(data, aes(x = data$lc, y = data$splc, col = partyname, shape=partyn
   scale_colour_manual(values=color)+
   guides(col=FALSE) + theme(legend.position="bottom")  + guides(shape = FALSE)
 p6
-ggsave("drafts/plot1-6.pdf")
+ggsave("drafts/plots/plot1-6.pdf")
 
 #Plot 7 - Non-Same-Party Mean vs District Mean
 p7 <- ggplot(data, aes(x = data$lc, y = data$nsplc, col = partyname, shape=partyname))+
@@ -108,7 +108,7 @@ p7 <- ggplot(data, aes(x = data$lc, y = data$nsplc, col = partyname, shape=party
   scale_colour_manual(values=color)+
   guides(col=FALSE) + theme(legend.position="bottom")  + guides(shape = FALSE)
 p7
-ggsave("drafts/plot1-7.pdf")
+ggsave("drafts/plots/plot1-7.pdf")
 
 #Plot 8 - Opposite Party Mean vs District Mean
 p8 <- ggplot(data, aes(x = data$lc, y = data$oplc, col = partyname, shape=partyname))+
@@ -121,7 +121,7 @@ p8 <- ggplot(data, aes(x = data$lc, y = data$oplc, col = partyname, shape=partyn
   scale_colour_manual(values=color)+
   guides(col=FALSE) + theme(legend.position="bottom")  + guides(shape = FALSE)
 p8
-ggsave("drafts/plot1-8.pdf")
+ggsave("drafts/plots/plot1-8.pdf")
 
 #Plot 9 - Independent Mean vs District Mean
 p9 <- ggplot(data, aes(x = data$lc, y = data$ilc, col = partyname, shape=partyname))+
@@ -134,7 +134,7 @@ p9 <- ggplot(data, aes(x = data$lc, y = data$ilc, col = partyname, shape=partyna
   scale_colour_manual(values=color)+
   guides(col=FALSE) + theme(legend.position="bottom")  + guides(shape = FALSE)
 p9
-ggsave("drafts/plot1-9.pdf")
+ggsave("drafts/plots/plot1-9.pdf")
 
 
 #Plot 10 - Non-Same Party Mean vs Same-Party Mean
@@ -148,7 +148,7 @@ p10 <- ggplot(data, aes(x = data$splc, y = data$nsplc, col = partyname, shape=pa
   scale_colour_manual(values=color)+
   guides(col=FALSE) + theme(legend.position="bottom")  + guides(shape = FALSE)
 p10
-ggsave("drafts/plot1-10.pdf")
+ggsave("drafts/plots/plot1-10.pdf")
 
 #Plot 11 - Opposite Party Mean vs Same Party Mean 
 p11 <- ggplot(data, aes(x = data$splc, y = data$oplc, col = partyname, shape=partyname))+
@@ -161,12 +161,17 @@ p11 <- ggplot(data, aes(x = data$splc, y = data$oplc, col = partyname, shape=par
   scale_colour_manual(values=color)+
   guides(col=FALSE) + theme(legend.position="bottom")  + guides(shape = FALSE)
 p11
-ggsave("drafts/plot1-11.pdf")
+ggsave("drafts/plots/plot1-11.pdf")
 
 #Plot 12 - Independent Mean vs Same Party Mean
 p12 <- ggplot(data, aes(x = data$splc, y = data$ilc, col = partyname, shape=partyname))+
   geom_point() +  geom_smooth(method = "lm")  +
   geom_smooth(aes(x = data$splc, y = data$ilc),method = "lm",col = "black",inherit.aes = FALSE)+
+  geom_vline(xintercept = 0)+
+  geom_hline(yintercept = 0)+
+  geom_abline(intercept = 0)+
+  scale_x_continuous(limits=c(-1,1))+
+  scale_y_continuous(limits=c(-1,1))+
   labs(title = "District Ideology Comparison",
        subtitle = "Independent Mean vs Same-Party Mean", 
        x ="Same-Party Mean Ideology", y= "Independent Mean Ideology", 
@@ -174,66 +179,83 @@ p12 <- ggplot(data, aes(x = data$splc, y = data$ilc, col = partyname, shape=part
   scale_colour_manual(values=color)+
   guides(col=FALSE) + theme(legend.position="bottom")  + guides(shape = FALSE)
 p12
-ggsave("drafts/plot1-12.pdf")
+ggsave("drafts/plots/plot1-12.pdf")
 rm(p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12)
 #####################################
 # End: Simpson Replication of Figure 2
 #####################################
 
 #####################################
-# Begin: Simpson Figure 2 Looking at Key Votes and Independents
+# Begin: Plots with Key Votes
 #####################################
 #Plot 1 - 
 p1b <- ggplot(data, aes(x = data$lc, y = data$x106kmean, col = partyname, shape=partyname))+
   geom_point() + geom_smooth(method = "lm")  +
+  geom_smooth(aes(x = data$lc, y = data$x106kmean),method = "lm",col = "black",inherit.aes = FALSE)+
   labs(title = "Legislator Ideal Point vs District Ideology",
-       subtitle = "Key Votes Ideal Point vs District Mean Ideology",
-       subtitle = "District d Ideology",
+       subtitle = "District Mean Ideology",
        x ="District Ideology", y= "Legislator Ideal Point", 
        shape="Rep Party")+
   scale_colour_manual(values=color)+
   guides(col=FALSE) + theme(legend.position="bottom") + guides(shape = FALSE)
 p1b
-ggsave("drafts/plot1-1b.pdf")
+ggsave("drafts/plots/plot1-1b.pdf")
 
 
 #Plot 2 - 
 p2b <- ggplot(data, aes(x = data$splc, y = data$x106kmean,  col = partyname, shape=partyname))+
   geom_point() + geom_smooth(method = "lm")  +
+  geom_smooth(aes(x = data$splc, y = data$x106kmean),method = "lm",col = "black",inherit.aes = FALSE)+
   labs(title = "Legislator Ideal Point vs District Ideology",
-       subtitle = "Key Votes Ideal Point vs District Same Party Mean Ideology",
-       x ="Same Party Mean Ideology", y= "Legislator Ideal Point", 
+       subtitle = "District Same-Party Mean Ideology",
+       x ="Same-Party Mean Ideology", y= "Legislator Ideal Point", 
        shape="Rep Party")+
   scale_colour_manual(values=color)+
   guides(col=FALSE, shape = FALSE) + theme(legend.position="bottom")  + guides(shape = FALSE)
 p2b
-ggsave("plot1-2b.pdf")
+ggsave("drafts/plots/plot1-2b.pdf")
 
 
 #Plot 3 - 
-p3b <- ggplot(data, aes(x = data$lc, y = data$ilc, col = partyname, shape=partyname))+
+p3b <- ggplot(data, aes(x = data$nsplc, y = data$x106kmean, col = partyname, shape=partyname))+
   geom_point() +  geom_smooth(method = "lm")  +
-  labs(title = "District Ideology Comparison",
-       subtitle =  "District Mean vs. Independent Mean",
-       x ="District Mean Ideology", y= "Independent Mean Ideology", 
+  geom_smooth(aes(x = data$nsplc, y = data$x106kmean),method = "lm",col = "black",inherit.aes = FALSE)+
+  labs(title = "Legislator Ideal Point vs District Ideology",
+       subtitle =  "Key Votes Ideal Point vs District Non-Same-Party Mean Ideology",
+       x ="Non-Same-Party Mean Ideology", y= "Legislator Ideal Point", 
        shape="Rep Party")+
   scale_colour_manual(values=color)+
   guides(col=FALSE) + theme(legend.position="bottom")  + guides(shape = FALSE)
 p3b
-ggsave("drafts/plot1-3b.pdf")
+ggsave("drafts/plots/plot1-3b.pdf")
 
 #Plot 4 - 
-p4b <- ggplot(data, aes(x = data$splc, y = data$oplc, col = partyname, shape=partyname))+
+p4b <- ggplot(data, aes(x = data$oplc, y = data$x106kmean, col = partyname, shape=partyname))+
   geom_point() +  geom_smooth(method = "lm")  +
-  labs(title = "District Ideology Comparison",
+  geom_smooth(aes(x = data$oplc, y = data$x106kmean),method = "lm",col = "black",inherit.aes = FALSE)+
+  labs(title = "Legislator Ideal Point vs District Ideology",
        subtitle =  "Same Party Mean vs. Opposite Party Mean",
-       x ="District Mean Ideology", y= "Opposite Party Ideology", 
+       x ="Opposite-Party Mean Ideology", y= "Legislator Ideal Point", 
        shape="Rep Party")+
   scale_colour_manual(values=color)+
   guides(col=FALSE) + theme(legend.position="bottom")  + guides(shape = FALSE)
 p4b
-ggsave("drafts/plot1-4b.pdf")
-rm(p1b,p2b,p3b,p4b)
+ggsave("drafts/plots/plot1-4b.pdf")
+
+#Plot 4 - 
+p5b <- ggplot(data, aes(x = data$ilc, y = data$x106kmean, col = partyname, shape=partyname))+
+  geom_point() +  geom_smooth(method = "lm")  +
+  geom_smooth(aes(x = data$ilc, y = data$x106kmean),method = "lm",col = "black",inherit.aes = FALSE)+
+  labs(title = "Legislator Ideal Point vs District Ideology",
+       subtitle =  "Same Party Mean vs. Opposite Party Mean",
+       x ="Independent Mean Ideology", y= "Legislator Ideal Point", 
+       shape="Rep Party")+
+  scale_colour_manual(values=color)+
+  guides(col=FALSE) + theme(legend.position="bottom")  + guides(shape = FALSE)
+p5b
+ggsave("drafts/plots/plot1-5b.pdf")
+
+rm(p1b,p2b,p3b,p4b,p5b)
 #####################################
-# End: Simpson Figure 2 - Looking at Key Votes and Independents
+# End: Plots with Key Votes
 #####################################

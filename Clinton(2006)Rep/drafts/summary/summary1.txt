@@ -1,0 +1,18 @@
+\begin{table}[!h]
+
+\caption{\label{tab:}Legislator Ideal Points}
+\centering
+\begin{tabular}[t]{lrrrr}
+\toprule
+\multicolumn{1}{c}{ } & \multicolumn{2}{c}{All Votes} & \multicolumn{2}{c}{Key Votes} \\
+\cmidrule(l{2pt}r{2pt}){2-3} \cmidrule(l{2pt}r{2pt}){4-5}
+\multicolumn{1}{c}{ } & \multicolumn{1}{c}{Mean} & \multicolumn{1}{c}{SD} & \multicolumn{1}{c}{Mean} & \multicolumn{1}{c}{SD}\\
+\midrule
+Republican & 0.792 & 0.184 & 0.837 & 0.434\\
+Democratic & -0.171 & 0.244 & -0.811 & 0.473\\
+All & 0.324 & 0.527 & 0.036 & 0.941\\
+\bottomrule
+\multicolumn{5}{l}{\textsuperscript{a} The correlation coefficient between the two}\\
+\multicolumn{5}{l}{ideology measures is .944}\\
+\end{tabular}
+\end{table}

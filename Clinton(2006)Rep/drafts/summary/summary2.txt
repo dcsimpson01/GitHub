@@ -1,0 +1,27 @@
+\begin{table}[!h]
+
+\caption{\label{tab:}Group Ideology and Share by Legislator Party}
+\centering
+\begin{tabular}[t]{lrrrr}
+\toprule
+\multicolumn{1}{c}{ } & \multicolumn{2}{c}{Ideology} & \multicolumn{2}{c}{Shares} \\
+\cmidrule(l{2pt}r{2pt}){2-3} \cmidrule(l{2pt}r{2pt}){4-5}
+\multicolumn{1}{c}{ } & \multicolumn{1}{c}{Mean} & \multicolumn{1}{c}{SD} & \multicolumn{1}{c}{Mean} & \multicolumn{1}{c}{SD}\\
+\midrule
+\addlinespace[0.3em]
+\multicolumn{5}{l}{\textbf{Republican}}\\
+\hspace{1em}District & 0.201 & 0.119 &  & \\
+\hspace{1em}Same-Party & 0.657 & 0.124 & 0.394 & 0.067\\
+\hspace{1em}Non-Same-Party & -0.084 & 0.138 & 0.606 & 0.067\\
+\hspace{1em}Independent & 0.072 & 0.139 & 0.273 & 0.059\\
+\hspace{1em}Opposite-Party & -0.219 & 0.173 & 0.333 & 0.067\\
+\addlinespace[0.3em]
+\multicolumn{5}{l}{\textbf{Democratic}}\\
+\hspace{1em}District & 0.047 & 0.185 &  & \\
+\hspace{1em}Same-Party & -0.261 & 0.197 & 0.449 & 0.112\\
+\hspace{1em}Non-Same-Party & 0.290 & 0.173 & 0.551 & 0.112\\
+\hspace{1em}Independent & 0.020 & 0.178 & 0.285 & 0.073\\
+\hspace{1em}Opposite-Party & 0.587 & 0.194 & 0.266 & 0.088\\
+\bottomrule
+\end{tabular}
+\end{table}
