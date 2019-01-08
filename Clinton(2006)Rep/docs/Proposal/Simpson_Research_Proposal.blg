@@ -7,45 +7,45 @@ Warning--no number and no volume in Broockman2016
 Warning--page numbers missing in Broockman2016
 Warning--no number and no volume in Lax2018
 Warning--page numbers missing in Lax2018
-You've used 10 entries,
+You've used 11 entries,
             2861 wiz_defined-function locations,
-            680 strings with 6465 characters,
-and the built_in function-call counts, 6545 in all, are:
-= -- 564
-> -- 443
+            688 strings with 6642 characters,
+and the built_in function-call counts, 7170 in all, are:
+= -- 619
+> -- 495
 < -- 0
-+ -- 132
-- -- 154
-* -- 586
-:= -- 1196
-add.period$ -- 29
-call.type$ -- 10
-change.case$ -- 69
-chr.to.int$ -- 10
-cite$ -- 14
-duplicate$ -- 173
-empty$ -- 406
-format.name$ -- 178
-if$ -- 1194
++ -- 148
+- -- 174
+* -- 634
+:= -- 1315
+add.period$ -- 31
+call.type$ -- 11
+change.case$ -- 76
+chr.to.int$ -- 11
+cite$ -- 15
+duplicate$ -- 188
+empty$ -- 437
+format.name$ -- 202
+if$ -- 1306
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 9
-newline$ -- 52
-num.names$ -- 100
-pop$ -- 41
+newline$ -- 56
+num.names$ -- 110
+pop$ -- 47
 preamble$ -- 1
-purify$ -- 129
+purify$ -- 142
 quote$ -- 0
-skip$ -- 186
+skip$ -- 208
 stack$ -- 0
-substring$ -- 375
-swap$ -- 57
+substring$ -- 395
+swap$ -- 62
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 200
+type$ -- 220
 warning$ -- 4
-while$ -- 102
+while$ -- 112
 width$ -- 0
-write$ -- 130
+write$ -- 141
 (There were 4 warnings)

@@ -37,7 +37,7 @@ if (tables==1){
                                       omit.stat=c("LL","ser","f"),
                                       #omit.labels = "State FE",
                                       #add.lines = list(c("State FE","No", "No","No","Yes","Yes","No")),
-                                      title = "Interction Models with Same-Party and Non-Same-Party",
+                                      title = "Legislator Ideal Point (All Votes) Responsiveness to Sub-district Groups",
                                       dep.var.labels=c("Legislator Ideal Point","Mean Centered","2Pt Shift"),
                                       #column.labels=c("C-M1","C-M2","E-M2: All", "E-M2: 3G"),
                                       #covariate.labels=c("\\%SP x SP Ideology","\\%NSP x NSP Ideology","SP Ideology","NSP Ideology",
@@ -70,7 +70,7 @@ if (tables==1){
                                       omit.stat=c("LL","ser","f"),
                                       #omit.labels = "State FE",
                                       #add.lines = list(c("State FE","No", "No","No","Yes","Yes","No")),
-                                      title = "Interction Models with Same-Party and Non-Same-Party",
+                                      title = "Legislator Ideal Point (All Votes) Responsiveness to Sub-district Groups",
                                       dep.var.labels=c("Legislator Ideal Point","Mean Centered","2Pt Shift"),
                                       #column.labels=c("C-M1","C-M2","E-M2: All", "E-M2: 3G"),
                                       #covariate.labels=c("\\%SP x SP Ideology","\\%NSP x NSP Ideology","SP Ideology","NSP Ideology",
@@ -99,7 +99,7 @@ if (tables==1){
   
 }else if (tables==3){
   writeLines(capture.output(stargazer(Ct2_5,Ct2_5b_nc,Ct2_5b_3g,Ct2_8,Ct2_8b_nc,Ct2_8b_3g, omit.stat=c("LL","ser","f"),
-                                      title = "Legislative Ideal Points and Sub-District Ideology",
+                                      title = "Partisan Ideal Point (All Votes) Responsiveness to Sub-district Groups",
                                       dep.var.labels=c("Legislator Ideal Point"),
                                       #column.labels=c("Rep-GOP","GOP 2","GOP 3", "Rep-DEM","DEM 2","DEM 3"),
                                       covariate.labels=c("\\% SP x SP Ideology","\\% NSP x NSP Ideology","\\% IND x IND Ideology","\\% OP x OP Ideology",
